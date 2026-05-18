@@ -44,7 +44,7 @@ Private report identifiers are intentionally omitted.
 
 ## Web3 Bug Bounty Reports
 
-| # | Protocol / Ecosystem | Critical | High | Major | Medium | Total |
+| # | Protocol and Ecosystem | Critical | High | Major | Medium | Total |
 |---:|---|---:|---:|---:|---:|---:|
 | 1 | Shade Protocol | 3 | 0 | 4 | 0 | 7 |
 | 2 | Qubic | 4 | 0 | 1 | 1 | 6 |
