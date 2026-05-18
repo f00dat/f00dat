@@ -21,13 +21,10 @@ Private report identifiers are intentionally omitted.
 |---|---:|
 | Web3 reports | 64 |
 | Critical findings | 30 |
-| High findings | 8 |
-| Major findings | 11 |
+| High findings | 19 |
 | Medium findings | 15 |
-| Protocols / ecosystems covered | 35 |
+| Protocols and ecosystems covered | 34 |
 | Web2 CVEs | 1 |
-
-> Note: Severity labels are preserved according to each program’s terminology. Some platforms use **High**, while others use **Major**.
 
 ---
 
@@ -36,51 +33,49 @@ Private report identifiers are intentionally omitted.
 | Severity | Reports |
 |---|---:|
 | Critical | 30 |
-| High | 8 |
-| Major | 11 |
+| High | 19 |
 | Medium | 15 |
 
 ---
 
 ## Web3 Bug Bounty Reports
 
-| # | Protocol and Ecosystem | Critical | High | Major | Medium | Total |
-|---:|---|---:|---:|---:|---:|---:|
-| 1 | Shade Protocol | 3 | 0 | 4 | 0 | 7 |
-| 2 | Qubic | 4 | 0 | 1 | 1 | 6 |
-| 3 | Cross | 4 | 0 | 0 | 1 | 5 |
-| 4 | Wemix | 3 | 0 | 2 | 0 | 5 |
-| 5 | B² Network | 1 | 1 | 0 | 1 | 3 |
-| 6 | Peaq | 1 | 0 | 0 | 2 | 3 |
-| 7 | Aptos Naming Service | 2 | 0 | 0 | 0 | 2 |
-| 8 | Aurora | 2 | 0 | 0 | 0 | 2 |
-| 9 | Creditcoin | 1 | 0 | 1 | 0 | 2 |
-| 10 | Haven1 | 1 | 0 | 1 | 0 | 2 |
-| 11 | Xion | 0 | 1 | 0 | 1 | 2 |
-| 12 | Coreum | 0 | 0 | 0 | 2 | 2 |
-| 13 | Aries Market | 1 | 0 | 0 | 0 | 1 |
-| 14 | Astros | 1 | 0 | 0 | 0 | 1 |
-| 15 | DeXe Protocol | 1 | 0 | 0 | 0 | 1 |
-| 16 | Massa | 1 | 0 | 0 | 0 | 1 |
-| 17 | Mintlayer | 1 | 0 | 0 | 0 | 1 |
-| 18 | Rwanftfi | 1 | 0 | 0 | 0 | 1 |
-| 19 | SocialPol | 1 | 0 | 0 | 0 | 1 |
-| 20 | Volo | 1 | 0 | 0 | 0 | 1 |
-| 21 | AutoFinance | 0 | 1 | 0 | 0 | 1 |
-| 22 | Bucket Protocol | 0 | 1 | 0 | 0 | 1 |
-| 23 | Momentum | 0 | 1 | 0 | 0 | 1 |
-| 24 | Nado Protocol | 0 | 1 | 0 | 0 | 1 |
-| 25 | Royco Protocol | 0 | 1 | 0 | 0 | 1 |
-| 26 | STON.fi | 0 | 1 | 0 | 0 | 1 |
-| 27 | Haven | 0 | 0 | 1 | 0 | 1 |
-| 28 | Xera | 0 | 0 | 1 | 0 | 1 |
-| 29 | Berachain | 0 | 0 | 0 | 1 | 1 |
-| 30 | Egoncoin | 0 | 0 | 0 | 1 | 1 |
-| 31 | NEAR Intents | 0 | 0 | 0 | 1 | 1 |
-| 32 | USDFC | 0 | 0 | 0 | 1 | 1 |
-| 33 | Valantis STEX | 0 | 0 | 0 | 1 | 1 |
-| 34 | Whitechain | 0 | 0 | 0 | 1 | 1 |
-| 35 | ZetaChain | 0 | 0 | 0 | 1 | 1 |
+| # | Protocol and Ecosystem | Critical | High | Medium | Total |
+|---:|---|---:|---:|---:|---:|
+| 1 | [Shade Protocol](https://shadeprotocol.io/ "Shade Protocol official website") | 3 | 4 | 0 | 7 |
+| 2 | [Qubic Network](https://qubic.org/ "Qubic Network official website") | 4 | 1 | 1 | 6 |
+| 3 | [Cross Network](https://crossfi.org/ "CrossFi official website") | 4 | 0 | 1 | 5 |
+| 4 | [Wemix Network](https://www.wemix.com/ "WEMIX official website") | 3 | 2 | 0 | 5 |
+| 5 | [B² Network](https://www.bsquared.network/ "B² Network official website") | 1 | 1 | 1 | 3 |
+| 6 | [Peaq Network](https://www.peaq.xyz/ "peaq official website") | 1 | 0 | 2 | 3 |
+| 7 | [Aptos Naming Service](https://www.aptosnames.com/ "Aptos Names official website") | 2 | 0 | 0 | 2 |
+| 8 | [Aurora Network](https://aurora.dev/ "Aurora official website") | 2 | 0 | 0 | 2 |
+| 9 | [Creditcoin](https://creditcoin.org/ "Creditcoin official website") | 1 | 1 | 0 | 2 |
+| 10 | [Haven1 Network](https://haven1.org/ "Haven1 official website") | 1 | 2 | 0 | 3 |
+| 11 | [Xion Network](https://xion.burnt.com/ "XION official website") | 0 | 1 | 1 | 2 |
+| 12 | [Coreum Network](https://www.coreum.com/ "Coreum official website") | 0 | 0 | 2 | 2 |
+| 13 | [Aries Market](https://ariesmarkets.xyz/ "Aries Markets official website") | 1 | 0 | 0 | 1 |
+| 14 | [Astros Network](https://astros.ag/ "Astros official website") | 1 | 0 | 0 | 1 |
+| 15 | [DeXe Protocol](https://www.dexe.network/ "DeXe Protocol official website") | 1 | 0 | 0 | 1 |
+| 16 | [Massa Network](https://massa.network/ "Massa Network official website") | 1 | 0 | 0 | 1 |
+| 17 | [Mintlayer Network](https://www.mintlayer.org/ "Mintlayer official website") | 1 | 0 | 0 | 1 |
+| 18 | [Rwanftfi Network](https://rwanftfi.com/ "RWANFTFI official website") | 1 | 0 | 0 | 1 |
+| 19 | [SocialPol Network](https://sociapol.com/ "SociaPol official website") | 1 | 0 | 0 | 1 |
+| 20 | [Volo Liquid Staking](https://www.volosui.com/ "Volo official website") | 1 | 0 | 0 | 1 |
+| 21 | [AutoFinance](https://app.auto.finance/ "Auto Finance official app") | 0 | 1 | 0 | 1 |
+| 22 | [Bucket Protocol](https://www.bucketprotocol.io/ "Bucket Protocol official website") | 0 | 1 | 0 | 1 |
+| 23 | [Momentum Liquid Staking and Dex](https://www.mmt.finance/ "Momentum official website") | 0 | 1 | 0 | 1 |
+| 24 | [Nado Protocol](https://app.nado.xyz/ "Nado official app") | 0 | 1 | 0 | 1 |
+| 25 | [Royco Protocol](https://www.royco.org/ "Royco Protocol official website") | 0 | 1 | 0 | 1 |
+| 26 | [STON.fi Blockchain](https://ston.fi/ "STON.fi official website") | 0 | 1 | 0 | 1 |
+| 27 | [Xera Network](https://about.xeradao.com/ "XeraDAO official website") | 0 | 1 | 0 | 1 |
+| 28 | [Berachain Network](https://www.berachain.com/ "Berachain official website") | 0 | 0 | 1 | 1 |
+| 29 | [Egoncoin](https://egoncoin.org/ "EgonCoin official website") | 0 | 0 | 1 | 1 |
+| 30 | [NEAR Intents](https://www.near.org/intents "NEAR Intents official website") | 0 | 0 | 1 | 1 |
+| 31 | [USDFC](https://app.usdfc.net/ "USDFC official app") | 0 | 0 | 1 | 1 |
+| 32 | [Valantis STEX](https://valantis.xyz/ "Valantis official website") | 0 | 0 | 1 | 1 |
+| 33 | [Whitechain](https://whitechain.io/ "Whitechain official website") | 0 | 0 | 1 | 1 |
+| 34 | [ZetaChain](https://www.zetachain.com/ "ZetaChain official website") | 0 | 0 | 1 | 1 |
 
 ---
 
@@ -89,7 +84,7 @@ Private report identifiers are intentionally omitted.
 | Area | Result |
 |---|---|
 | Web2 security research | 1 CVE |
-| Public reference | CVE-2026-40021 |
+| Public reference | [CVE-2026-40021](https://www.openwall.com/lists/oss-security/2026/04/10/11 "Openwall oss-security disclosure") |
 
 ---
 
@@ -113,6 +108,9 @@ All findings were reported through appropriate bug bounty or disclosure channels
 Sensitive technical details, private report identifiers, and exploit-specific information are omitted from this public portfolio.
 
 ---
+
 ## Contact
 
 Available for security research, protocol review, vulnerability assessment, and bug bounty collaboration.
+
+- [LinkedIn](https://www.linkedin.com/in/danielalvesads/ "LinkedIn")
