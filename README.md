@@ -17,13 +17,14 @@ This portfolio contains only publicly verifiable results.
 
 | Result | Count |
 |---|---:|
-| Valid and rewarded audit contest findings | 8 |
+| Valid audit contest findings | 15 |
+| Rewarded audit contest findings | 14 |
 | Valid and rewarded Web3 bug bounty findings | 1 |
-| Published technical writeups | 9 |
+| Published technical writeups | 15 |
 | Public CVEs | 1 |
-| Documented rewards | $1,045.25 |
+| Documented rewards | $1,297.64 |
 
-> Final severities reflect the official classification assigned by the contest, program, or vendor. Private, pending, rejected, and embargoed reports are not included.
+> Final severities reflect the official classification assigned by the contest, program, or vendor. Private, pending, rejected, and embargoed reports are not included. Valid findings without a payout are tracked separately and do not increase documented rewards.
 
 ## Audit Contest Research
 
@@ -55,15 +56,40 @@ Six findings from the 0xMarkets Audit Contest have been validated, rewarded, and
 | Base-denom-only validation let untrusted IBC vouchers drain native tokenwrapper reserves | Critical | $443.00 | [Article](https://dev.to/f00dat/how-a-base-denom-collision-let-untrusted-ibc-vouchers-drain-zigchains-native-reserves-3o5j) · [Report](https://hackenproof.com/reports/ZIGCHDD-74) |
 | **ZIGChain total** | **1 Critical** | **$443.00** | **1 article** |
 
+### Code4rena | Panoptic: Next Core
+
+| Finding | Final Severity | Reward | Public Evidence |
+|---|---:|---:|---|
+| Reinitializable `BuilderWallet` let anyone replace the admin and steal builder fee balances | High | No payout | [Article](https://dev.to/f00dat/how-a-reinitializable-builderwallet-let-anyone-steal-builder-fees-586d) · [Final Report](https://code4rena.com/reports/2025-12-panoptic-next-core#h-01-builderwallet-init-is-unprotectedre-initializable-enabling-takeover-and-theft-of-builder-fees) |
+| **Panoptic total** | **1 High** | **No payout** | **1 article** |
+
+> Code4rena included the issue as `H-01` in the final report and credited `I1iveF0rTh1Sh1t` among the researchers who identified it. The finding remained High, while the contest dashboard showed no earnings for this submission.
+
+### Code4rena | Rujira
+
+Code4rena credited `I1iveF0rTh1Sh1t` with three High and three Medium findings in the Rujira audit, finishing in 25th place with $252.39 in total contest earnings.
+
+| Finding | Final Severity | Reward | Public Evidence |
+|---|---:|---:|---|
+| Borrow limit can be bypassed via share rounding and floored ownership accounting | Medium | Included in contest total | [Article](https://dev.to/f00dat/how-share-rounding-let-a-rujira-borrower-take-2-tokens-with-a-limit-of-1-22h9) · [Contest Results](https://code4rena.com/audits/2025-12-rujira) |
+| `adjusted_ltv()` can divide by zero and panic, DoSing queries and safety-check/liquidation flows | Medium | Included in contest total | [Article](https://dev.to/f00dat/how-zero-adjusted-collateral-could-dos-rujira-credit-queries-and-liquidations-1ipa) · [Contest Results](https://code4rena.com/audits/2025-12-rujira) |
+| Repayment can be permanently blocked by rounding and repay clamping (`permanent dust debt` DoS) | Medium | Included in contest total | [Article](https://dev.to/f00dat/how-repay-clamping-created-permanent-dust-debt-in-rujira-ghost-vault-53fh) · [Contest Results](https://code4rena.com/audits/2025-12-rujira) |
+| Borrower can brick liquidation by storing an invalid preference `LiquidateMsg::Repay` | High | Included in contest total | [Article](https://dev.to/f00dat/how-a-borrower-controlled-repay-preference-could-brick-rujira-liquidations-552j) · [Contest Results](https://code4rena.com/audits/2025-12-rujira) |
+| Liquidator can extract a hidden bonus up to `liquidation_max_slip` by draining collateral while repaying debt with external funds | High | Included in contest total | [Article](https://dev.to/f00dat/how-rujiras-slippage-guard-could-become-a-hidden-liquidation-bonus-58j4) · [Contest Results](https://code4rena.com/audits/2025-12-rujira) |
+| **Rujira total** | **3 High · 3 Medium** | **$252.39** | **6 findings · 5 articles** |
+
+> The published contest results verify the complete Rujira result. Five findings are now documented in public technical writeups: two High findings covering the borrower-controlled liquidation blocker and the hidden liquidation bonus, plus three Medium findings covering the borrow-limit rounding bypass, the zero-adjusted-collateral panic, and the permanent dust-debt repayment DoS.
+
 ### Contest Totals
 
 | Severity | Count |
 |---|---:|
 | Critical | 2 |
-| High | 5 |
-| Medium | 1 |
-| **Total findings** | **8** |
-| **Total rewards** | **$945.25** |
+| High | 9 |
+| Medium | 4 |
+| **Total valid findings** | **15** |
+| **Rewarded findings** | **14** |
+| **Total rewards** | **$1,197.64** |
 
 ## Web3 Bug Bounty Research
 
@@ -81,12 +107,13 @@ Six findings from the 0xMarkets Audit Contest have been validated, rewarded, and
 | Severity | Count |
 |---|---:|
 | Critical | 2 |
-| High | 5 |
-| Medium | 1 |
+| High | 9 |
+| Medium | 4 |
 | Low | 1 |
-| **Total validated findings** | **9** |
-| **Total documented rewards** | **$1,045.25** |
-| **Published technical writeups** | **9** |
+| **Total validated findings** | **16** |
+| **Rewarded findings** | **15** |
+| **Total documented rewards** | **$1,297.64** |
+| **Published technical writeups** | **15** |
 
 ## Public CVE
 
