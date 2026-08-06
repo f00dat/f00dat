@@ -19,10 +19,10 @@ This portfolio contains only publicly verifiable results.
 |---|---:|
 | Valid audit contest findings | 15 |
 | Rewarded audit contest findings | 14 |
-| Valid and rewarded Web3 bug bounty findings | 1 |
-| Published technical writeups | 15 |
+| Valid and rewarded Web3 bug bounty findings | 2 |
+| Published technical writeups | 17 |
 | Public CVEs | 1 |
-| Documented rewards | $1,297.64 |
+| Documented rewards | $1,797.64 |
 
 > Final severities reflect the official classification assigned by the contest, program, or vendor. Private, pending, rejected, and embargoed reports are not included. Valid findings without a payout are tracked separately and do not increase documented rewards.
 
@@ -76,9 +76,10 @@ Code4rena credited `I1iveF0rTh1Sh1t` with three High and three Medium findings i
 | Repayment can be permanently blocked by rounding and repay clamping (`permanent dust debt` DoS) | Medium | Included in contest total | [Article](https://dev.to/f00dat/how-repay-clamping-created-permanent-dust-debt-in-rujira-ghost-vault-53fh) · [Contest Results](https://code4rena.com/audits/2025-12-rujira) |
 | Borrower can brick liquidation by storing an invalid preference `LiquidateMsg::Repay` | High | Included in contest total | [Article](https://dev.to/f00dat/how-a-borrower-controlled-repay-preference-could-brick-rujira-liquidations-552j) · [Contest Results](https://code4rena.com/audits/2025-12-rujira) |
 | Liquidator can extract a hidden bonus up to `liquidation_max_slip` by draining collateral while repaying debt with external funds | High | Included in contest total | [Article](https://dev.to/f00dat/how-rujiras-slippage-guard-could-become-a-hidden-liquidation-bonus-58j4) · [Contest Results](https://code4rena.com/audits/2025-12-rujira) |
-| **Rujira total** | **3 High · 3 Medium** | **$252.39** | **6 findings · 5 articles** |
+| Borrower-controlled unbounded `preference_msgs` can make liquidations economically unexecutable because preferences execute before solver steps | High | Included in contest total | [Article](https://dev.to/f00dat/how-unbounded-borrower-preferences-could-make-rujira-liquidations-economically-impossible-4cf5) · [Contest Results](https://code4rena.com/audits/2025-12-rujira) |
+| **Rujira total** | **3 High · 3 Medium** | **$252.39** | **6 findings · 6 articles** |
 
-> The published contest results verify the complete Rujira result. Five findings are now documented in public technical writeups: two High findings covering the borrower-controlled liquidation blocker and the hidden liquidation bonus, plus three Medium findings covering the borrow-limit rounding bypass, the zero-adjusted-collateral panic, and the permanent dust-debt repayment DoS.
+> The published contest results verify the complete Rujira result. All six findings are now documented in public technical writeups: three High findings covering the invalid-repay liquidation blocker, the hidden liquidation bonus, and the unbounded-preference liquidation DoS, plus three Medium findings covering the borrow-limit rounding bypass, the zero-adjusted-collateral panic, and the permanent dust-debt repayment DoS.
 
 ### Contest Totals
 
@@ -86,12 +87,21 @@ Code4rena credited `I1iveF0rTh1Sh1t` with three High and three Medium findings i
 |---|---:|
 | Critical | 2 |
 | High | 9 |
-| Medium | 4 |
+| Medium | 5 |
 | **Total valid findings** | **15** |
 | **Rewarded findings** | **14** |
 | **Total rewards** | **$1,197.64** |
 
 ## Web3 Bug Bounty Research
+
+### CertiK Skynet | WEMIX
+
+| Finding | Submitted Severity | Final Severity | Reward | Public Evidence |
+|---|---:|---:|---:|---|
+| Removed validator remained accepted as an active signer and reward recipient after `GovImp` self-change corrupted validator index alignment | Critical | Medium | $500.00 | [Article](https://dev.to/f00dat/how-wemix-kept-accepting-a-removed-validator-as-an-active-signer-1135) · [Public Report](https://gist.github.com/f00dat/96219a676da64aeef5eadf174cb0b442) |
+| **WEMIX total** |  | **1 Medium** | **$500.00** | **1 article** |
+
+> The report was submitted as Critical because a legitimate governance removal did not revoke the validator from the real client-side active-enode path. The proof demonstrated that `enodeExists` continued accepting the removed enode and that the reward path attributed a positive reward to the removed validator’s chosen address using another active validator’s stake. WEMIX assigned the final severity as Medium and paid a $500 bounty. The published writeup documents the technical basis for the Critical classification and the repeated severity-downgrade pattern observed across my WEMIX submissions.
 
 ### HackenProof | Momentum
 
@@ -110,10 +120,10 @@ Code4rena credited `I1iveF0rTh1Sh1t` with three High and three Medium findings i
 | High | 9 |
 | Medium | 4 |
 | Low | 1 |
-| **Total validated findings** | **16** |
-| **Rewarded findings** | **15** |
-| **Total documented rewards** | **$1,297.64** |
-| **Published technical writeups** | **15** |
+| **Total validated findings** | **17** |
+| **Rewarded findings** | **16** |
+| **Total documented rewards** | **$1,797.64** |
+| **Published technical writeups** | **17** |
 
 ## Public CVE
 
