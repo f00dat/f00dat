@@ -51,6 +51,18 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 > Final severities reflect the official classification assigned by each contest, program, or vendor. Private, pending, rejected, and embargoed reports are not included.
 
+
+## Featured Research
+
+| Project | Finding | Severity | Evidence |
+|---|---|---:|---|
+| **ZIGChain** | Untrusted IBC voucher collision drained native token wrapper reserves | **Critical** | [Article](https://dev.to/f00dat/how-a-base-denom-collision-let-untrusted-ibc-vouchers-drain-zigchains-native-reserves-3o5j) · [Report](https://hackenproof.com/reports/ZIGCHDD-74) |
+| **Overlayer** | Destination local counter underflow stranded first inbound transfers | **Critical** | [Article](https://dev.to/f00dat/how-overlayers-destination-local-counter-permanently-stranded-first-inbound-transfers-7i7) · [Report](https://hackenproof.com/reports/OVLRSCDD-30) |
+| **Panoptic** | Reinitializable `BuilderWallet` enabled admin replacement and fee theft | **High** | [Article](https://dev.to/f00dat/how-a-reinitializable-builderwallet-let-anyone-steal-builder-fees-586d) · [Final Report](https://code4rena.com/reports/2025-12-panoptic-next-core#h-01-builderwallet-init-is-unprotectedre-initializable-enabling-takeover-and-theft-of-builder-fees) |
+| **0xMarkets** | Stale GLV share pricing captured pending insurance recapitalization | **High** | [Article](https://dev.to/f00dat/how-stale-glv-share-pricing-allowed-new-depositors-to-capture-pending-insurance-recapitalization-5fn6) |
+| **WEMIX** | Removed validator remained accepted as signer and reward recipient | **Medium** | [Article](https://dev.to/f00dat/how-wemix-kept-accepting-a-removed-validator-as-an-active-signer-1135) · [Report](https://gist.github.com/f00dat/96219a676da64aeef5eadf174cb0b442) |
+| **Apache Log4net** | XML 1.0 forbidden characters could silently suppress log records | **Medium** | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
+
 ### Detailed Public Record
 
 | Category | Valid | Rewarded | Writeups | Documented Rewards |
@@ -60,17 +72,6 @@ Independent security researcher focused on high impact vulnerabilities across sm
 | **Combined** | **26** | **25** | **26** | **$2,697.64** |
 
 > Reward amounts are preserved here for transparency, but they are not used as headline indicators of technical impact.
-
-## Featured Research
-
-| Project | Finding | Severity | Evidence |
-|---|---|---:|---|
-| **ZIGChain** | Untrusted IBC voucher collision drained native tokenwrapper reserves | **Critical** | [Article](https://dev.to/f00dat/how-a-base-denom-collision-let-untrusted-ibc-vouchers-drain-zigchains-native-reserves-3o5j) · [Report](https://hackenproof.com/reports/ZIGCHDD-74) |
-| **Overlayer** | Destination local counter underflow stranded first inbound transfers | **Critical** | [Article](https://dev.to/f00dat/how-overlayers-destination-local-counter-permanently-stranded-first-inbound-transfers-7i7) · [Report](https://hackenproof.com/reports/OVLRSCDD-30) |
-| **Panoptic** | Reinitializable `BuilderWallet` enabled admin replacement and fee theft | **High** | [Article](https://dev.to/f00dat/how-a-reinitializable-builderwallet-let-anyone-steal-builder-fees-586d) · [Final Report](https://code4rena.com/reports/2025-12-panoptic-next-core#h-01-builderwallet-init-is-unprotectedre-initializable-enabling-takeover-and-theft-of-builder-fees) |
-| **0xMarkets** | Stale GLV share pricing captured pending insurance recapitalization | **High** | [Article](https://dev.to/f00dat/how-stale-glv-share-pricing-allowed-new-depositors-to-capture-pending-insurance-recapitalization-5fn6) |
-| **WEMIX** | Removed validator remained accepted as signer and reward recipient | **Medium** | [Article](https://dev.to/f00dat/how-wemix-kept-accepting-a-removed-validator-as-an-active-signer-1135) · [Report](https://gist.github.com/f00dat/96219a676da64aeef5eadf174cb0b442) |
-| **Apache Log4net** | XML 1.0 forbidden characters could silently suppress log records | **Medium** | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
 
 # Audit Contest Research
 
@@ -83,9 +84,11 @@ Independent security researcher focused on high impact vulnerabilities across sm
 | 1 | Stale GLV share pricing captured pending insurance recapitalization | High | $343.64 | [Read](https://dev.to/f00dat/how-stale-glv-share-pricing-allowed-new-depositors-to-capture-pending-insurance-recapitalization-5fn6) |
 | 2 | WNT collateral orders reimbursed an execution fee already funded by the main account | High | $60.87 | [Read](https://dev.to/f00dat/how-wnt-collateral-orders-let-subaccounts-claim-execution-fees-they-never-paid-5241) |
 | 3 | Pending request value enabled CarthaVault share inflation | High | $27.65 | [Read](https://dev.to/f00dat/how-pending-0xmarkets-requests-enabled-share-inflation-in-carthavault-5352) |
-| 4 | Wrong WNT receiver broke nonzero execution-fee paths | Medium | $0.92 | [Read](https://dev.to/f00dat/how-a-wrong-wnt-receiver-broke-carthavaults-nonzero-execution-fee-paths-4156) |
-| 5 | Transferred shares became permanently unredeemable after the original Position was deleted | High | $0.19 | [Read](https://dev.to/f00dat/how-transferred-carthavault-shares-became-permanently-unredeemable-133n) |
-| 6 | A `1e12` GM decimal mismatch let existing LPs capture later deposits | High | $0.01 | [Read](https://dev.to/f00dat/how-a-1e12-decimal-mismatch-let-existing-lps-capture-later-deposits-57fm) |
+| 4 | Wrong WNT receiver broke nonzero execution-fee paths | Medium | Included in total | [Read](https://dev.to/f00dat/how-a-wrong-wnt-receiver-broke-carthavaults-nonzero-execution-fee-paths-4156) |
+| 5 | Transferred shares became permanently unredeemable after the original Position was deleted | High | Included in total | [Read](https://dev.to/f00dat/how-transferred-carthavault-shares-became-permanently-unredeemable-133n) |
+| 6 | A `1e12` GM decimal mismatch let existing LPs capture later deposits | High | Included in total | [Read](https://dev.to/f00dat/how-a-1e12-decimal-mismatch-let-existing-lps-capture-later-deposits-57fm) |
+
+> The contest total is preserved above. Very small individual pool allocations are not itemized in these rows so the table emphasizes validated technical impact rather than payout mechanics.
 
 ---
 
@@ -105,13 +108,13 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 | Finding | Severity | Reward | Public Evidence |
 |---|---:|---:|---|
-| Base-denom-only validation let untrusted IBC vouchers drain native tokenwrapper reserves | Critical | $443.00 | [Article](https://dev.to/f00dat/how-a-base-denom-collision-let-untrusted-ibc-vouchers-drain-zigchains-native-reserves-3o5j) · [Report](https://hackenproof.com/reports/ZIGCHDD-74) |
+| Base-denom-only validation let untrusted IBC vouchers drain native token wrapper reserves | Critical | $443.00 | [Article](https://dev.to/f00dat/how-a-base-denom-collision-let-untrusted-ibc-vouchers-drain-zigchains-native-reserves-3o5j) · [Report](https://hackenproof.com/reports/ZIGCHDD-74) |
 
 ---
 
 ## Code4rena · Panoptic: Next Core
 
-**1 High · Published as H 01**
+**1 High · Published as H-01**
 
 | Finding | Severity | Reward | Public Evidence |
 |---|---:|---:|---|
