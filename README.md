@@ -1,18 +1,12 @@
-<div align="center">
-
 # Daniel Alves
 
 ### Security Researcher · Web3 · Blockchain Infrastructure · DeFi · Web2
 
-Independent security researcher focused on real protocol paths, reproducible proofs of concept, and publicly verifiable security research.
-
-<br>
+Independent security researcher focused on high impact vulnerabilities across smart contracts, DeFi, cross chain systems, blockchain infrastructure, governance, and Web2. My work emphasizes reproducible proofs of concept, real protocol paths, and publicly verifiable evidence.
 
 [![GitHub](https://img.shields.io/badge/GitHub-f00dat-181717?style=for-the-badge&logo=github)](https://github.com/f00dat)
 [![DEV](https://img.shields.io/badge/DEV-Technical_Writeups-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/f00dat)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel_Alves-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/danielalvesads/)
-
-<br>
 
 ![Web3 Security](https://img.shields.io/badge/Web3-Security-6f42c1?style=flat-square)
 ![Blockchain Security](https://img.shields.io/badge/Blockchain-Security-7c3aed?style=flat-square)
@@ -21,36 +15,43 @@ Independent security researcher focused on real protocol paths, reproducible pro
 ![Web2 Research](https://img.shields.io/badge/Web2-Vulnerability_Research-2563eb?style=flat-square)
 ![Public CVE](https://img.shields.io/badge/Public_CVE-1-b91c1c?style=flat-square)
 
-</div>
+**Primary research handle:** `f00dat`  
+**Code4rena credit:** `I1iveF0rTh1Sh1t`
 
----
+## Navigation
 
-<div align="center">
+[Selected Impact](#selected-impact) · [Featured Research](#featured-research) · [Audit Contests](#audit-contest-research) · [Bug Bounties](#web3-bug-bounty-research) · [Public CVE](#public-cve) · [Research Focus](#research-focus) · [Research Standard](#research-standard) · [Contact](#contact)
 
-[Overview](#overview) · [Featured Research](#featured-research) · [Audit Contests](#audit-contest-research) · [Bug Bounties](#web3-bug-bounty-research) · [Public CVE](#public-cve) · [Research Focus](#research-focus) · [Contact](#contact)
+## Selected Impact
 
-</div>
-
----
+| Result | Public evidence |
+|---|---|
+| **26 validated findings** across public contests and bug bounty programs | [Audit contests](#audit-contest-research) · [Bug bounties](#web3-bug-bounty-research) |
+| **2 Critical findings** in cross chain and token wrapper systems | [ZIGChain](https://hackenproof.com/reports/ZIGCHDD-74) · [Overlayer](https://hackenproof.com/reports/OVLRSCDD-30) |
+| **9 High findings** across DeFi, smart contracts, and protocol accounting | [Featured research](#featured-research) |
+| **1 public CVE** in Apache Log4net | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
+| **26 public technical writeups** with reproduction paths and impact analysis | [DEV](https://dev.to/f00dat) |
+| **10 valid WEMIX reports** spanning consensus, governance, staking, P2P, DeFi, and reserve accounting | [WEMIX research](#certik-skynet--wemix) |
 
 ## Overview
 
-<table>
-<tr>
-<td align="center"><strong>26</strong><br>Validated Findings</td>
-<td align="center"><strong>25</strong><br>Rewarded Findings</td>
-<td align="center"><strong>26</strong><br>Technical Writeups</td>
-<td align="center"><strong>1</strong><br>Public CVE</td>
-</tr>
-<tr>
-<td align="center"><strong>2</strong><br>Critical</td>
-<td align="center"><strong>9</strong><br>High</td>
-<td align="center"><strong>5</strong><br>Medium</td>
-<td align="center"><strong>10</strong><br>Low</td>
-</tr>
-</table>
+| Validated Findings | Rewarded Findings | Technical Writeups | Public CVE |
+|---:|---:|---:|---:|
+| **26** | **25** | **26** | **1** |
 
-### Public Results by Category
+| Critical | High | Medium | Low |
+|---:|---:|---:|---:|
+| **2** | **9** | **5** | **10** |
+
+| Category | Valid | Rewarded | Writeups |
+|---|---:|---:|---:|
+| Audit contests | 15 | 14 | 15 |
+| Web3 bug bounties | 11 | 11 | 11 |
+| **Combined** | **26** | **25** | **26** |
+
+> Final severities reflect the official classification assigned by each contest, program, or vendor. Private, pending, rejected, and embargoed reports are not included.
+
+### Detailed Public Record
 
 | Category | Valid | Rewarded | Writeups | Documented Rewards |
 |---|---:|---:|---:|---:|
@@ -58,43 +59,24 @@ Independent security researcher focused on real protocol paths, reproducible pro
 | Web3 bug bounties | 11 | 11 | 11 | $1,500.00 |
 | **Combined** | **26** | **25** | **26** | **$2,697.64** |
 
-> Final severities reflect the official classification assigned by each contest, program, or vendor. Private, pending, rejected, and embargoed reports are not included.
-
-### Severity Distribution
-
-```mermaid
-pie showData
-    title Validated Findings by Severity
-    "Critical" : 2
-    "High" : 9
-    "Medium" : 5
-    "Low" : 10
-```
-
----
+> Reward amounts are preserved here for transparency, but they are not used as headline indicators of technical impact.
 
 ## Featured Research
 
 | Project | Finding | Severity | Evidence |
 |---|---|---:|---|
-| ZIGChain | Untrusted IBC voucher collision drained native tokenwrapper reserves | Critical | [Article](https://dev.to/f00dat/how-a-base-denom-collision-let-untrusted-ibc-vouchers-drain-zigchains-native-reserves-3o5j) · [Report](https://hackenproof.com/reports/ZIGCHDD-74) |
-| Overlayer | Destination-local counter underflow stranded first inbound transfers | Critical | [Article](https://dev.to/f00dat/how-overlayers-destination-local-counter-permanently-stranded-first-inbound-transfers-7i7) · [Report](https://hackenproof.com/reports/OVLRSCDD-30) |
-| Panoptic | Reinitializable `BuilderWallet` enabled admin replacement and fee theft | High | [Article](https://dev.to/f00dat/how-a-reinitializable-builderwallet-let-anyone-steal-builder-fees-586d) · [Final Report](https://code4rena.com/reports/2025-12-panoptic-next-core#h-01-builderwallet-init-is-unprotectedre-initializable-enabling-takeover-and-theft-of-builder-fees) |
-| 0xMarkets | Stale GLV share pricing captured pending insurance recapitalization | High | [Article](https://dev.to/f00dat/how-stale-glv-share-pricing-allowed-new-depositors-to-capture-pending-insurance-recapitalization-5fn6) |
-| WEMIX | Removed validator remained accepted as signer and reward recipient | Medium | [Article](https://dev.to/f00dat/how-wemix-kept-accepting-a-removed-validator-as-an-active-signer-1135) · [Report](https://gist.github.com/f00dat/96219a676da64aeef5eadf174cb0b442) |
-| Apache Log4net | XML 1.0 forbidden characters could silently suppress log records | Medium | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
-
----
+| **ZIGChain** | Untrusted IBC voucher collision drained native tokenwrapper reserves | **Critical** | [Article](https://dev.to/f00dat/how-a-base-denom-collision-let-untrusted-ibc-vouchers-drain-zigchains-native-reserves-3o5j) · [Report](https://hackenproof.com/reports/ZIGCHDD-74) |
+| **Overlayer** | Destination local counter underflow stranded first inbound transfers | **Critical** | [Article](https://dev.to/f00dat/how-overlayers-destination-local-counter-permanently-stranded-first-inbound-transfers-7i7) · [Report](https://hackenproof.com/reports/OVLRSCDD-30) |
+| **Panoptic** | Reinitializable `BuilderWallet` enabled admin replacement and fee theft | **High** | [Article](https://dev.to/f00dat/how-a-reinitializable-builderwallet-let-anyone-steal-builder-fees-586d) · [Final Report](https://code4rena.com/reports/2025-12-panoptic-next-core#h-01-builderwallet-init-is-unprotectedre-initializable-enabling-takeover-and-theft-of-builder-fees) |
+| **0xMarkets** | Stale GLV share pricing captured pending insurance recapitalization | **High** | [Article](https://dev.to/f00dat/how-stale-glv-share-pricing-allowed-new-depositors-to-capture-pending-insurance-recapitalization-5fn6) |
+| **WEMIX** | Removed validator remained accepted as signer and reward recipient | **Medium** | [Article](https://dev.to/f00dat/how-wemix-kept-accepting-a-removed-validator-as-an-active-signer-1135) · [Report](https://gist.github.com/f00dat/96219a676da64aeef5eadf174cb0b442) |
+| **Apache Log4net** | XML 1.0 forbidden characters could silently suppress log records | **Medium** | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
 
 # Audit Contest Research
 
 ## HackenProof · 0xMarkets
 
-<div align="center">
-
 **6 validated findings · 5 High · 1 Medium · $433.28**
-
-</div>
 
 | # | Finding | Severity | Reward | Writeup |
 |---:|---|---:|---:|---|
@@ -109,11 +91,7 @@ pie showData
 
 ## HackenProof · Overlayer DualDefense
 
-<div align="center">
-
 **1 Critical · $68.97**
-
-</div>
 
 | Finding | Severity | Reward | Public Evidence |
 |---|---:|---:|---|
@@ -123,11 +101,7 @@ pie showData
 
 ## HackenProof · ZIGChain Code DualDefense
 
-<div align="center">
-
 **1 Critical · $443.00**
-
-</div>
 
 | Finding | Severity | Reward | Public Evidence |
 |---|---:|---:|---|
@@ -137,11 +111,7 @@ pie showData
 
 ## Code4rena · Panoptic: Next Core
 
-<div align="center">
-
-**1 High · Published as H-01 · No payout**
-
-</div>
+**1 High · Published as H 01**
 
 | Finding | Severity | Reward | Public Evidence |
 |---|---:|---:|---|
@@ -153,11 +123,7 @@ pie showData
 
 ## Code4rena · Rujira
 
-<div align="center">
-
 **25th place · 3 High · 3 Medium · $252.39**
-
-</div>
 
 | # | Finding | Severity | Public Evidence |
 |---:|---|---:|---|
@@ -172,16 +138,9 @@ pie showData
 
 ## Audit Contest Summary
 
-<table>
-<tr>
-<td align="center"><strong>2</strong><br>Critical</td>
-<td align="center"><strong>9</strong><br>High</td>
-<td align="center"><strong>4</strong><br>Medium</td>
-<td align="center"><strong>15</strong><br>Valid</td>
-<td align="center"><strong>14</strong><br>Rewarded</td>
-<td align="center"><strong>$1,197.64</strong><br>Rewards</td>
-</tr>
-</table>
+| Critical | High | Medium | Valid | Rewarded | Rewards |
+|---:|---:|---:|---:|---:|---:|
+| **2** | **9** | **4** | **15** | **14** | **$1,197.64** |
 
 ---
 
@@ -189,15 +148,10 @@ pie showData
 
 ## CertiK Skynet · WEMIX
 
-<div align="center">
-
 ### 10 Valid Reports · 10 Rewards · 10 Public Articles · $1,400.00
 
 ![WEMIX Medium](https://img.shields.io/badge/Final_Medium-1-f59e0b?style=flat-square)
 ![WEMIX Low](https://img.shields.io/badge/Final_Low-9-2563eb?style=flat-square)
-![WEMIX Rewards](https://img.shields.io/badge/Rewards-$1,400.00-2ea44f?style=flat-square)
-
-</div>
 
 | # | Finding | Submitted | Final | Reward | Evidence |
 |---:|---|---:|---:|---:|---|
@@ -232,8 +186,7 @@ pie showData
 
 > All ten WEMIX reports were accepted as valid, publicly documented, and rewarded. Nine reports submitted as Major were finalized as Low. The public writeups preserve the complete reproduction paths, demonstrated impacts, limitations, and technical basis for the submitted severities. This documents the recurring pattern of systematic downgrading across these submissions without claiming a motive for individual decisions.
 
-<details>
-<summary><strong>Latest governance finding at a glance</strong></summary>
+### Latest governance finding at a glance
 
 ```text
 Eligible members
@@ -257,17 +210,12 @@ Maximum lock duration
 
 The fully participated ballot remained active because integer-truncated weights could never reach the exact `10000` fallback. Since `ballotInVoting` was still occupied, another valid emergency proposal remained blocked until timeout cleanup.
 
-</details>
 
 ---
 
 ## HackenProof · Momentum
 
-<div align="center">
-
-**1 Low · $100.00**
-
-</div>
+**1 Low**
 
 | Finding | Submitted | Final | Reward | Evidence |
 |---|---:|---:|---:|---|
@@ -277,24 +225,17 @@ The fully participated ballot remained active because integer-truncated weights 
 
 ## Web3 Bug Bounty Summary
 
-<table>
-<tr>
-<td align="center"><strong>1</strong><br>Medium</td>
-<td align="center"><strong>10</strong><br>Low</td>
-<td align="center"><strong>11</strong><br>Valid</td>
-<td align="center"><strong>11</strong><br>Rewarded</td>
-<td align="center"><strong>11</strong><br>Writeups</td>
-<td align="center"><strong>$1,500.00</strong><br>Rewards</td>
-</tr>
-</table>
+| Medium | Low | Valid | Rewarded | Writeups | Rewards |
+|---:|---:|---:|---:|---:|---:|
+| **1** | **10** | **11** | **11** | **11** | **$1,500.00** |
 
 ---
 
-# Public CVE
+## Public CVE
 
-## CVE 2026 40021 · Apache Log4net
+### CVE 2026 40021 · Apache Log4net
 
-### Silent loss of log events in `XmlLayout` and `XmlLayoutSchemaLog4J` caused by unescaped XML 1.0 forbidden characters
+#### Silent loss of log events in `XmlLayout` and `XmlLayoutSchemaLog4J` caused by unescaped XML 1.0 forbidden characters
 
 | Field | Details |
 |---|---|
@@ -303,55 +244,34 @@ The fully participated ballot remained active because integer-truncated weights 
 | CVSS 4.0 | 6.3 |
 | Affected versions | Before 3.3.0 |
 | Fixed version | 3.3.0 |
-| Research credit | f00dat |
+| Research credit | `f00dat` |
 | Disclosure platform | YesWeHack |
 
-Attacker-influenced MDC property keys, MDC values, and identity data could introduce XML 1.0 forbidden characters. The resulting serialization exception could silently suppress individual log records, weakening audit trails and malicious-activity detection.
+Attacker influenced MDC property keys, MDC values, and identity data could introduce XML 1.0 forbidden characters. The resulting serialization exception could silently suppress individual log records, weakening audit trails and malicious activity detection.
 
-[Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) · [GitHub Advisory](https://github.com/advisories/GHSA-4f7c-pmjv-c25w) · [Fix Pull Request](https://github.com/apache/logging-log4net/pull/280) · [oss-security](https://www.openwall.com/lists/oss-security/2026/04/10/11)
+[Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) · [GitHub Advisory](https://github.com/advisories/GHSA-4f7c-pmjv-c25w) · [Fix Pull Request](https://github.com/apache/logging-log4net/pull/280) · [oss security](https://www.openwall.com/lists/oss-security/2026/04/10/11)
 
----
-
-# Research Focus
-
-<table>
-<tr>
-<td width="50%" valign="top">
+## Research Focus
 
 ### Smart Contracts and DeFi
-
 Authorization, state transitions, share pricing, dilution, settlement, recapitalization, asset ownership, and economic invariants.
 
-### Governance Systems
-
-Voting arithmetic, membership integrity, proposal lifecycle, staking transitions, cleanup safety, and emergency liveness.
-
-### Cross-Chain Systems
-
-Message validation, replay protection, destination binding, distributed accounting, and bridge invariants.
-
-</td>
-<td width="50%" valign="top">
+### Cross Chain Systems
+Message validation, replay protection, destination binding, distributed accounting, bridge invariants, and token wrapper trust boundaries.
 
 ### Blockchain Infrastructure
-
 Consensus, block validation, signer identity, node behavior, P2P protocols, mining coordination, and reorg safety.
 
-### Web2 Security
+### Governance Systems
+Voting arithmetic, membership integrity, proposal lifecycle, staking transitions, cleanup safety, and emergency liveness.
 
+### Web2 Security
 Application security, logging integrity, parser behavior, and coordinated vulnerability disclosure.
 
 ### Proof Development
+Reproducible end to end proofs using real protocol paths whenever possible, with explicit controls, measurable state transitions, and bounded impact claims.
 
-Reproducible end-to-end proofs using real protocol paths whenever possible, with explicit controls and bounded impact claims.
-
-</td>
-</tr>
-</table>
-
----
-
-# Disclosure Standard
+## Research Standard
 
 Only findings meeting at least one of these conditions are included:
 
@@ -363,14 +283,8 @@ Only findings meeting at least one of these conditions are included:
 
 Private, pending, rejected, and embargoed reports are excluded.
 
----
-
-# Contact
-
-<div align="center">
+## Contact
 
 [![GitHub](https://img.shields.io/badge/GitHub-f00dat-181717?style=for-the-badge&logo=github)](https://github.com/f00dat)
 [![DEV](https://img.shields.io/badge/DEV-Technical_Writeups-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/f00dat)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel_Alves-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/danielalvesads/)
-
-</div>
