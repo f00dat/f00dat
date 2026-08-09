@@ -26,28 +26,29 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 | Result | Public evidence |
 |---|---|
-| **26 validated findings** across public contests and bug bounty programs | [Audit contests](#audit-contest-research) · [Bug bounties](#web3-bug-bounty-research) |
+| **29 validated findings** across public contests and bug bounty programs | [Audit contests](#audit-contest-research) · [Bug bounties](#web3-bug-bounty-research) |
 | **2 Critical findings** in cross chain and token wrapper systems | [ZIGChain](https://hackenproof.com/reports/ZIGCHDD-74) · [Overlayer](https://hackenproof.com/reports/OVLRSCDD-30) |
-| **9 High findings** across DeFi, smart contracts, and protocol accounting | [Featured research](#featured-research) |
+| **11 High findings** across DeFi, smart contracts, and protocol accounting | [Featured research](#featured-research) |
 | **1 public CVE** in Apache Log4net | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
-| **26 public technical writeups** with reproduction paths and impact analysis | [DEV](https://dev.to/f00dat) |
+| **29 public technical writeups** with reproduction paths and impact analysis | [DEV](https://dev.to/f00dat) |
 | **10 valid WEMIX reports** spanning consensus, governance, staking, P2P, DeFi, and reserve accounting | [WEMIX research](#certik-skynet--wemix) |
+| **9 validated 0xMarkets findings** across oracle, vault, execution-fee, share-accounting, and redemption paths | [0xMarkets research](#hackenproof--0xmarkets) |
 
 ## Overview
 
 | Validated Findings | Rewarded Findings | Technical Writeups | Public CVE |
 |---:|---:|---:|---:|
-| **26** | **25** | **26** | **1** |
+| **29** | **28** | **29** | **1** |
 
 | Critical | High | Medium | Low |
 |---:|---:|---:|---:|
-| **2** | **9** | **5** | **10** |
+| **2** | **11** | **6** | **10** |
 
 | Category | Valid | Rewarded | Writeups |
 |---|---:|---:|---:|
-| Audit contests | 15 | 14 | 15 |
+| Audit contests | 18 | 17 | 18 |
 | Web3 bug bounties | 11 | 11 | 11 |
-| **Combined** | **26** | **25** | **26** |
+| **Combined** | **29** | **28** | **29** |
 
 > Final severities reflect the official classification assigned by each contest, program, or vendor. Private, pending, rejected, and embargoed reports are not included.
 
@@ -60,6 +61,9 @@ Independent security researcher focused on high impact vulnerabilities across sm
 | **Overlayer** | Destination local counter underflow stranded first inbound transfers | **Critical** | [Article](https://dev.to/f00dat/how-overlayers-destination-local-counter-permanently-stranded-first-inbound-transfers-7i7) · [Report](https://hackenproof.com/reports/OVLRSCDD-30) |
 | **Panoptic** | Reinitializable `BuilderWallet` enabled admin replacement and fee theft | **High** | [Article](https://dev.to/f00dat/how-a-reinitializable-builderwallet-let-anyone-steal-builder-fees-586d) · [Final Report](https://code4rena.com/reports/2025-12-panoptic-next-core#h-01-builderwallet-init-is-unprotectedre-initializable-enabling-takeover-and-theft-of-builder-fees) |
 | **0xMarkets** | Stale GLV share pricing captured pending insurance recapitalization | **High** | [Article](https://dev.to/f00dat/how-stale-glv-share-pricing-allowed-new-depositors-to-capture-pending-insurance-recapitalization-5fn6) |
+| **0xMarkets** | Permissionless Pyth Lazer calls drained provider-funded verification fees and broke price updates | **Medium** | [Article](https://dev.to/f00dat/how-permissionless-pyth-lazer-calls-could-drain-0xmarkets-oracle-fee-balance-and-break-price-5kd) |
+| **0xMarkets** | Successful request executions orphaned users’ WNT execution fees across five production paths | **High** | [Article](https://dev.to/f00dat/how-successful-0xmarkets-requests-could-permanently-orphan-users-wnt-execution-fees-2hcg) |
+| **0xMarkets** | Transaction-scoped Oracle prices froze CarthaVault accounting after GM settlement | **High** | [Article](https://dev.to/f00dat/how-transaction-scoped-0xmarkets-oracle-prices-could-freeze-carthavault-after-gm-settlement-1n1c) |
 | **WEMIX** | Removed validator remained accepted as signer and reward recipient | **Medium** | [Article](https://dev.to/f00dat/how-wemix-kept-accepting-a-removed-validator-as-an-active-signer-1135) · [Report](https://gist.github.com/f00dat/96219a676da64aeef5eadf174cb0b442) |
 | **Apache Log4net** | XML 1.0 forbidden characters could silently suppress log records | **Medium** | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
 
@@ -67,9 +71,9 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 | Category | Valid | Rewarded | Writeups | Documented Rewards |
 |---|---:|---:|---:|---:|
-| Audit contests | 15 | 14 | 15 | $1,197.64 |
+| Audit contests | 18 | 17 | 18 | $1,199.64 |
 | Web3 bug bounties | 11 | 11 | 11 | $1,500.00 |
-| **Combined** | **26** | **25** | **26** | **$2,697.64** |
+| **Combined** | **29** | **28** | **29** | **$2,699.64** |
 
 > Reward amounts are preserved here for transparency, but they are not used as headline indicators of technical impact.
 
@@ -77,7 +81,7 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 ## HackenProof · 0xMarkets
 
-**6 validated findings · 5 High · 1 Medium · $433.28**
+**9 validated findings · 7 High · 2 Medium · $435.28**
 
 | # | Finding | Severity | Reward | Writeup |
 |---:|---|---:|---:|---|
@@ -87,8 +91,11 @@ Independent security researcher focused on high impact vulnerabilities across sm
 | 4 | Wrong WNT receiver broke nonzero execution-fee paths | Medium | Included in total | [Read](https://dev.to/f00dat/how-a-wrong-wnt-receiver-broke-carthavaults-nonzero-execution-fee-paths-4156) |
 | 5 | Transferred shares became permanently unredeemable after the original Position was deleted | High | Included in total | [Read](https://dev.to/f00dat/how-transferred-carthavault-shares-became-permanently-unredeemable-133n) |
 | 6 | A `1e12` GM decimal mismatch let existing LPs capture later deposits | High | Included in total | [Read](https://dev.to/f00dat/how-a-1e12-decimal-mismatch-let-existing-lps-capture-later-deposits-57fm) |
+| 7 | Permissionless Pyth Lazer oracle calls could drain the provider ETH balance and break legitimate price updates | Medium | Included in total | [Read](https://dev.to/f00dat/how-permissionless-pyth-lazer-calls-could-drain-0xmarkets-oracle-fee-balance-and-break-price-5kd) |
+| 8 | Successful request executions permanently orphan users’ WNT execution fees because execution fee payout is disabled | High | Included in total | [Read](https://dev.to/f00dat/how-successful-0xmarkets-requests-could-permanently-orphan-users-wnt-execution-fees-2hcg) |
+| 9 | Transaction-scoped 0xMarkets Oracle primary prices freeze CarthaVault deposits and withdrawals after GM settlement | High | Included in total | [Read](https://dev.to/f00dat/how-transaction-scoped-0xmarkets-oracle-prices-could-freeze-carthavault-after-gm-settlement-1n1c) |
 
-> The contest total is preserved above. Very small individual pool allocations are not itemized in these rows so the table emphasizes validated technical impact rather than payout mechanics.
+> The contest total is preserved above. The latest publicly documented 0xMarkets findings include small individual pool allocations such as $0.52 for the CarthaVault Oracle-lifetime issue. Other very small allocations remain grouped into the contest total so the table emphasizes validated technical impact rather than payout mechanics.
 
 ---
 
@@ -143,7 +150,7 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 | Critical | High | Medium | Valid | Rewarded | Rewards |
 |---:|---:|---:|---:|---:|---:|
-| **2** | **9** | **4** | **15** | **14** | **$1,197.64** |
+| **2** | **11** | **5** | **18** | **17** | **$1,199.64** |
 
 ---
 
