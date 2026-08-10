@@ -26,11 +26,11 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 | Result | Public evidence |
 |---|---|
-| **29 validated findings** across public contests and bug bounty programs | [Audit contests](#audit-contest-research) · [Bug bounties](#web3-bug-bounty-research) |
+| **30 validated findings** across public contests and bug bounty programs | [Audit contests](#audit-contest-research) · [Bug bounties](#web3-bug-bounty-research) |
 | **2 Critical findings** in cross chain and token wrapper systems | [ZIGChain](https://hackenproof.com/reports/ZIGCHDD-74) · [Overlayer](https://hackenproof.com/reports/OVLRSCDD-30) |
-| **11 High findings** across DeFi, smart contracts, and protocol accounting | [Featured research](#featured-research) |
+| **12 High findings** across DeFi, smart contracts, and protocol accounting | [Featured research](#featured-research) |
 | **1 public CVE** in Apache Log4net | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
-| **29 public technical writeups** with reproduction paths and impact analysis | [DEV](https://dev.to/f00dat) |
+| **30 public technical writeups** with reproduction paths and impact analysis | [DEV](https://dev.to/f00dat) |
 | **10 valid WEMIX reports** spanning consensus, governance, staking, P2P, DeFi, and reserve accounting | [WEMIX research](#certik-skynet--wemix) |
 | **9 validated 0xMarkets findings** across oracle, vault, execution-fee, share-accounting, and redemption paths | [0xMarkets research](#hackenproof--0xmarkets) |
 
@@ -38,17 +38,17 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 | Validated Findings | Rewarded Findings | Technical Writeups | Public CVE |
 |---:|---:|---:|---:|
-| **29** | **28** | **29** | **1** |
+| **30** | **29** | **30** | **1** |
 
 | Critical | High | Medium | Low |
 |---:|---:|---:|---:|
-| **2** | **11** | **6** | **10** |
+| **2** | **12** | **6** | **10** |
 
 | Category | Valid | Rewarded | Writeups |
 |---|---:|---:|---:|
-| Audit contests | 18 | 17 | 18 |
+| Audit contests | 19 | 18 | 19 |
 | Web3 bug bounties | 11 | 11 | 11 |
-| **Combined** | **29** | **28** | **29** |
+| **Combined** | **30** | **29** | **30** |
 
 > Final severities reflect the official classification assigned by each contest, program, or vendor. Private, pending, rejected, and embargoed reports are not included.
 
@@ -64,6 +64,7 @@ Independent security researcher focused on high impact vulnerabilities across sm
 | **0xMarkets** | Permissionless Pyth Lazer calls drained provider-funded verification fees and broke price updates | **Medium** | [Article](https://dev.to/f00dat/how-permissionless-pyth-lazer-calls-could-drain-0xmarkets-oracle-fee-balance-and-break-price-5kd) |
 | **0xMarkets** | Successful request executions orphaned users’ WNT execution fees across five production paths | **High** | [Article](https://dev.to/f00dat/how-successful-0xmarkets-requests-could-permanently-orphan-users-wnt-execution-fees-2hcg) |
 | **0xMarkets** | Transaction-scoped Oracle prices froze CarthaVault accounting after GM settlement | **High** | [Article](https://dev.to/f00dat/how-transaction-scoped-0xmarkets-oracle-prices-could-freeze-carthavault-after-gm-settlement-1n1c) |
+| **Fluid Dex V2** | Over-balance normal supply withdrawal debited the capped position but withdrew the uncapped amount from pooled Liquidity | **High** | [Article](https://dev.to/f00dat/how-a-1-usdc-position-let-an-attacker-withdraw-800-usdc-from-fluid-moneymarkets-shared-liquidity-4pcn) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1225/voting/860) |
 | **WEMIX** | Removed validator remained accepted as signer and reward recipient | **Medium** | [Article](https://dev.to/f00dat/how-wemix-kept-accepting-a-removed-validator-as-an-active-signer-1135) · [Report](https://gist.github.com/f00dat/96219a676da64aeef5eadf174cb0b442) |
 | **Apache Log4net** | XML 1.0 forbidden characters could silently suppress log records | **Medium** | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
 
@@ -71,9 +72,9 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 | Category | Valid | Rewarded | Writeups | Documented Rewards |
 |---|---:|---:|---:|---:|
-| Audit contests | 18 | 17 | 18 | $1,199.64 |
+| Audit contests | 19 | 18 | 19 | $1,233.64 |
 | Web3 bug bounties | 11 | 11 | 11 | $1,500.00 |
-| **Combined** | **29** | **28** | **29** | **$2,699.64** |
+| **Combined** | **30** | **29** | **30** | **$2,733.64** |
 
 > Reward amounts are preserved here for transparency, but they are not used as headline indicators of technical impact.
 
@@ -146,11 +147,21 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 ---
 
+## Sherlock · Fluid DEX V2
+
+**1 High · $34.00**
+
+| Finding | Severity | Reward | Public Evidence |
+|---|---:|---:|---|
+| Normal supply withdrawal capped the MoneyMarket storage debit but forwarded the full requested amount to Liquidity, allowing withdrawal above balance from pooled funds | High | $34.00 | [Article](https://dev.to/f00dat/how-a-1-usdc-position-let-an-attacker-withdraw-800-usdc-from-fluid-moneymarkets-shared-liquidity-4pcn) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1225/voting/860) |
+
+---
+
 ## Audit Contest Summary
 
 | Critical | High | Medium | Valid | Rewarded | Rewards |
 |---:|---:|---:|---:|---:|---:|
-| **2** | **11** | **5** | **18** | **17** | **$1,199.64** |
+| **2** | **12** | **5** | **19** | **18** | **$1,233.64** |
 
 ---
 
