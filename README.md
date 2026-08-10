@@ -26,11 +26,11 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 | Result | Public evidence |
 |---|---|
-| **30 validated findings** across public contests and bug bounty programs | [Audit contests](#audit-contest-research) · [Bug bounties](#web3-bug-bounty-research) |
+| **34 validated findings** across public contests and bug bounty programs | [Audit contests](#audit-contest-research) · [Bug bounties](#web3-bug-bounty-research) |
 | **2 Critical findings** in cross chain and token wrapper systems | [ZIGChain](https://hackenproof.com/reports/ZIGCHDD-74) · [Overlayer](https://hackenproof.com/reports/OVLRSCDD-30) |
 | **12 High findings** across DeFi, smart contracts, and protocol accounting | [Featured research](#featured-research) |
 | **1 public CVE** in Apache Log4net | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
-| **30 public technical writeups** with reproduction paths and impact analysis | [DEV](https://dev.to/f00dat) |
+| **34 public technical writeups** with reproduction paths and impact analysis | [DEV](https://dev.to/f00dat) |
 | **10 valid WEMIX reports** spanning consensus, governance, staking, P2P, DeFi, and reserve accounting | [WEMIX research](#certik-skynet--wemix) |
 | **9 validated 0xMarkets findings** across oracle, vault, execution-fee, share-accounting, and redemption paths | [0xMarkets research](#hackenproof--0xmarkets) |
 
@@ -38,17 +38,17 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 | Validated Findings | Rewarded Findings | Technical Writeups | Public CVE |
 |---:|---:|---:|---:|
-| **30** | **29** | **30** | **1** |
+| **34** | **33** | **34** | **1** |
 
 | Critical | High | Medium | Low |
 |---:|---:|---:|---:|
-| **2** | **12** | **6** | **10** |
+| **2** | **12** | **8** | **12** |
 
 | Category | Valid | Rewarded | Writeups |
 |---|---:|---:|---:|
-| Audit contests | 19 | 18 | 19 |
-| Web3 bug bounties | 11 | 11 | 11 |
-| **Combined** | **30** | **29** | **30** |
+| Audit contests | 21 | 20 | 21 |
+| Web3 bug bounties | 13 | 13 | 13 |
+| **Combined** | **34** | **33** | **34** |
 
 > Final severities reflect the official classification assigned by each contest, program, or vendor. Private, pending, rejected, and embargoed reports are not included.
 
@@ -65,6 +65,10 @@ Independent security researcher focused on high impact vulnerabilities across sm
 | **0xMarkets** | Successful request executions orphaned users’ WNT execution fees across five production paths | **High** | [Article](https://dev.to/f00dat/how-successful-0xmarkets-requests-could-permanently-orphan-users-wnt-execution-fees-2hcg) |
 | **0xMarkets** | Transaction-scoped Oracle prices froze CarthaVault accounting after GM settlement | **High** | [Article](https://dev.to/f00dat/how-transaction-scoped-0xmarkets-oracle-prices-could-freeze-carthavault-after-gm-settlement-1n1c) |
 | **Fluid Dex V2** | Over-balance normal supply withdrawal debited the capped position but withdrew the uncapped amount from pooled Liquidity | **High** | [Article](https://dev.to/f00dat/how-a-1-usdc-position-let-an-attacker-withdraw-800-usdc-from-fluid-moneymarkets-shared-liquidity-4pcn) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1225/voting/860) |
+| **CurrentSui** | Expired reward pool closure could refund borrower yield before lazy reward materialization | **Medium** | [Article](https://dev.to/f00dat/how-an-expired-currentsui-reward-pool-could-refund-yield-borrowers-had-already-earned-32aa) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1256/voting/154) |
+| **CurrentSui** | Double subtraction of `cash_reserve` reopened full markets and diverted active liquidity mining rewards | **Medium** | [Article](https://dev.to/f00dat/how-double-subtracting-cashreserve-reopened-full-currentsui-markets-and-diverted-liquidity-mining-160m) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1256/voting/244) |
+| **CROSS** | Positive `offsetSeconds` reset mint capacity early and allowed `2 × LIMIT` inside one intended period | **Low** | [Article](https://dev.to/f00dat/how-a-positive-offsetseconds-bug-let-a-cross-forge-mint-2x-the-intended-erc20-period-limit-eon) · [Report](https://gist.github.com/f00dat/fe7084f0045a3e69434ad973ad2a21d2) |
+| **CROSS** | Constructor-bypass maker order could repeatedly revert native CROSS pair matching through auto-unwrapped payouts | **Low** | [Article](https://dev.to/f00dat/how-a-constructor-bypass-let-malicious-cross-makers-block-native-pair-matching-3n64) · [Report](https://gist.github.com/f00dat/f4cd5aaaebc649999cb730606c31f17b) |
 | **WEMIX** | Removed validator remained accepted as signer and reward recipient | **Medium** | [Article](https://dev.to/f00dat/how-wemix-kept-accepting-a-removed-validator-as-an-active-signer-1135) · [Report](https://gist.github.com/f00dat/96219a676da64aeef5eadf174cb0b442) |
 | **Apache Log4net** | XML 1.0 forbidden characters could silently suppress log records | **Medium** | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
 
@@ -72,9 +76,9 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 | Category | Valid | Rewarded | Writeups | Documented Rewards |
 |---|---:|---:|---:|---:|
-| Audit contests | 19 | 18 | 19 | $1,233.64 |
-| Web3 bug bounties | 11 | 11 | 11 | $1,500.00 |
-| **Combined** | **30** | **29** | **30** | **$2,733.64** |
+| Audit contests | 21 | 20 | 21 | $1,418.12 |
+| Web3 bug bounties | 13 | 13 | 13 | $1,718.80 |
+| **Combined** | **34** | **33** | **34** | **$3,136.92** |
 
 > Reward amounts are preserved here for transparency, but they are not used as headline indicators of technical impact.
 
@@ -157,11 +161,22 @@ Independent security researcher focused on high impact vulnerabilities across sm
 
 ---
 
+## Sherlock · CurrentSui
+
+**2 Medium · $184.48**
+
+| # | Finding | Submitted | Final | Reward | Public Evidence |
+|---:|---|---:|---:|---:|---|
+| 1 | Expired reward pool close could refund economically accrued borrower yield before lazy reward materialization | High | Medium | $92.24 | [Article](https://dev.to/f00dat/how-an-expired-currentsui-reward-pool-could-refund-yield-borrowers-had-already-earned-32aa) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1256/voting/154) |
+| 2 | Double subtraction of `cash_reserve` bypassed the deposit cap and diverted active liquidity mining rewards | Medium | Medium | $92.24 | [Article](https://dev.to/f00dat/how-double-subtracting-cashreserve-reopened-full-currentsui-markets-and-diverted-liquidity-mining-160m) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1256/voting/244) |
+
+---
+
 ## Audit Contest Summary
 
 | Critical | High | Medium | Valid | Rewarded | Rewards |
 |---:|---:|---:|---:|---:|---:|
-| **2** | **12** | **5** | **19** | **18** | **$1,233.64** |
+| **2** | **12** | **7** | **21** | **20** | **$1,418.12** |
 
 ---
 
@@ -244,11 +259,24 @@ The fully participated ballot remained active because integer-truncated weights 
 
 ---
 
+## CertiK SkyShield · CROSS
+
+**2 valid reports · 2 rewards · $218.80**
+
+| # | Finding | Submitted | Final | Reward | Evidence |
+|---:|---|---:|---:|---:|---|
+| 1 | Positive `offsetSeconds` prematurely reset `ERC20MintLimited` capacity, allowing a forge to mint `2 × LIMIT` before the configured period ended | Critical | Low | $109.40 | [Article](https://dev.to/f00dat/how-a-positive-offsetseconds-bug-let-a-cross-forge-mint-2x-the-intended-erc20-period-limit-eon) · [Public Report](https://gist.github.com/f00dat/fe7084f0045a3e69434ad973ad2a21d2) |
+| 2 | Constructor-bypass maker order could repeatedly revert native CROSS pair matching by rejecting auto-unwrapped payouts | Medium | Low | $109.40 | [Article](https://dev.to/f00dat/how-a-constructor-bypass-let-malicious-cross-makers-block-native-pair-matching-3n64) · [Public Report](https://gist.github.com/f00dat/f4cd5aaaebc649999cb730606c31f17b) |
+
+> Both findings were finalized as Low by CROSS. The public writeups preserve the technical basis for the submitted severities and document the severity disagreements, while the portfolio totals use the official final classifications.
+
+---
+
 ## Web3 Bug Bounty Summary
 
 | Medium | Low | Valid | Rewarded | Writeups | Rewards |
 |---:|---:|---:|---:|---:|---:|
-| **1** | **10** | **11** | **11** | **11** | **$1,500.00** |
+| **1** | **12** | **13** | **13** | **13** | **$1,718.80** |
 
 ---
 
