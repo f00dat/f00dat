@@ -1,8 +1,10 @@
-# Daniel Alves
+<h1 align="center">Daniel Alves</h1>
 
-### Security Researcher · Web3 · Web2 · Smart Contracts · Blockchain Infrastructure · DeFi
+<h3 align="center">
+Security Researcher · Web3 · Web2 · Smart Contracts · Blockchain Infrastructure · DeFi
+</h3>
 
-## Professional Summary
+<h2 align="center">Professional Summary</h2>
 
 Security Researcher focused on vulnerability research across Web3 and Web2, including smart contracts, DeFi, cross-chain systems, blockchain infrastructure, application security, logging integrity, parser behavior, and coordinated vulnerability disclosure.
 
