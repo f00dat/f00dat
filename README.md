@@ -1,50 +1,67 @@
 <h1 align="center">Daniel Alves</h1>
 
-<h3 align="center">
-Security Researcher · Web3 · Web2 · Smart Contracts · Blockchain Infrastructure · DeFi
-</h3>
+<p align="center">
+  <strong>Security Researcher · Web3 · Web2 · Smart Contracts · Blockchain Infrastructure · DeFi</strong>
+</p>
+
+<p align="center">
+  Vulnerability Research · Protocol Security · Application Security · Reproducible PoCs
+</p>
+
+<p align="center">
+  <a href="https://github.com/f00dat"><img src="https://img.shields.io/badge/GitHub-f00dat-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
+  <a href="https://dev.to/f00dat"><img src="https://img.shields.io/badge/DEV-Technical_Writeups-0A0A0A?style=for-the-badge&logo=devdotto" alt="DEV"></a>
+  <a href="https://www.linkedin.com/in/danielalvesads/"><img src="https://img.shields.io/badge/LinkedIn-Daniel_Alves-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Web3-Security-6f42c1?style=flat-square" alt="Web3 Security">
+  <img src="https://img.shields.io/badge/Blockchain-Security-7c3aed?style=flat-square" alt="Blockchain Security">
+  <img src="https://img.shields.io/badge/DeFi-Security-f59e0b?style=flat-square" alt="DeFi Security">
+  <img src="https://img.shields.io/badge/Smart_Contracts-Auditing-2ea44f?style=flat-square" alt="Smart Contract Auditing">
+  <img src="https://img.shields.io/badge/Web2-Vulnerability_Research-2563eb?style=flat-square" alt="Web2 Vulnerability Research">
+  <img src="https://img.shields.io/badge/Public_CVE-1-b91c1c?style=flat-square" alt="Public CVE">
+</p>
+
+<p align="center">
+  Primary research handle: <code>f00dat</code> · Code4rena credit: <code>I1iveF0rTh1Sh1t</code>
+</p>
+
+---
 
 <h2 align="center">Professional Summary</h2>
 
 Security Researcher focused on vulnerability research across Web3 and Web2, including smart contracts, DeFi, cross-chain systems, blockchain infrastructure, application security, logging integrity, parser behavior, and coordinated vulnerability disclosure.
 
-Public research record includes 34 validated findings across audit contests and bug bounty programs, 2 final Critical findings, 12 final High findings, 34 public technical writeups, and 1 public CVE in Apache Log4net.
+Public research record includes **34 validated findings** across audit contests and bug bounty programs, including **2 final Critical**, **12 final High**, **34 public technical writeups**, and **1 public CVE in Apache Log4net**.
 
 My work emphasizes reproducible proofs of concept, real protocol paths, measurable state transitions, explicit control cases, and publicly verifiable evidence.
-
-[![GitHub](https://img.shields.io/badge/GitHub-f00dat-181717?style=for-the-badge&logo=github)](https://github.com/f00dat)
-[![DEV](https://img.shields.io/badge/DEV-Technical_Writeups-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/f00dat)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel_Alves-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/danielalvesads/)
-
-![Web3 Security](https://img.shields.io/badge/Web3-Security-6f42c1?style=flat-square)
-![Blockchain Security](https://img.shields.io/badge/Blockchain-Security-7c3aed?style=flat-square)
-![DeFi Security](https://img.shields.io/badge/DeFi-Security-f59e0b?style=flat-square)
-![Smart Contract Auditing](https://img.shields.io/badge/Smart_Contracts-Auditing-2ea44f?style=flat-square)
-![Web2 Research](https://img.shields.io/badge/Web2-Vulnerability_Research-2563eb?style=flat-square)
-![Public CVE](https://img.shields.io/badge/Public_CVE-1-b91c1c?style=flat-square)
-
-Primary research handle: `f00dat`  
-Code4rena credit: `I1iveF0rTh1Sh1t`
 
 ---
 
 ## Portfolio Snapshot
 
-![Validated Findings](https://img.shields.io/badge/Validated_Findings-34-2ea44f?style=for-the-badge)
-![Critical Findings](https://img.shields.io/badge/Final_Critical-2-b91c1c?style=for-the-badge)
-![High Findings](https://img.shields.io/badge/Final_High-12-e67e22?style=for-the-badge)
-![Public CVE](https://img.shields.io/badge/Public_CVE-1-b91c1c?style=for-the-badge)
-![Public Writeups](https://img.shields.io/badge/Public_Writeups-34-6f42c1?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Validated_Findings-34-2ea44f?style=for-the-badge" alt="Validated Findings">
+  <img src="https://img.shields.io/badge/Final_Critical-2-b91c1c?style=for-the-badge" alt="Final Critical">
+  <img src="https://img.shields.io/badge/Final_High-12-e67e22?style=for-the-badge" alt="Final High">
+  <img src="https://img.shields.io/badge/Public_CVE-1-b91c1c?style=for-the-badge" alt="Public CVE">
+  <img src="https://img.shields.io/badge/Public_Writeups-34-6f42c1?style=for-the-badge" alt="Public Writeups">
+</p>
 
-![Rewarded Findings](https://img.shields.io/badge/Rewarded_Findings-33-0A66C2?style=flat-square)
-![Documented Rewards](https://img.shields.io/badge/Documented_Rewards-%243%2C136.92-f59e0b?style=flat-square)
+<p align="center">
+  <img src="https://img.shields.io/badge/Rewarded_Findings-33-0A66C2?style=flat-square" alt="Rewarded Findings">
+  <img src="https://img.shields.io/badge/Documented_Rewards-%243%2C136.92-f59e0b?style=flat-square" alt="Documented Rewards">
+</p>
 
 ### Final Severity Distribution
 
-![Critical](https://img.shields.io/badge/Critical-2-b91c1c?style=flat-square)
-![High](https://img.shields.io/badge/High-12-e67e22?style=flat-square)
-![Medium](https://img.shields.io/badge/Medium-8-f59e0b?style=flat-square)
-![Low](https://img.shields.io/badge/Low-12-2563eb?style=flat-square)
+<p align="center">
+  <img src="https://img.shields.io/badge/Critical-2-b91c1c?style=flat-square" alt="Critical">
+  <img src="https://img.shields.io/badge/High-12-e67e22?style=flat-square" alt="High">
+  <img src="https://img.shields.io/badge/Medium-8-f59e0b?style=flat-square" alt="Medium">
+  <img src="https://img.shields.io/badge/Low-12-2563eb?style=flat-square" alt="Low">
+</p>
 
 | Research Channel | Validated | Rewarded | Public Writeups | Documented Rewards |
 |---|---:|---:|---:|---:|
@@ -92,7 +109,18 @@ Code4rena credit: `I1iveF0rTh1Sh1t`
 
 ## Navigation
 
-[Snapshot](#portfolio-snapshot) · [Core Expertise](#core-expertise) · [Career Highlights](#career-highlights) · [Selected Research](#selected-research) · [Audit Contests](#audit-contest-research) · [Web3 Bug Bounties](#web3-bug-bounty-research) · [Web2 Security](#web2-security-research) · [Public CVE](#public-cve) · [Research Focus](#research-focus) · [Contact](#contact)
+<p align="center">
+  <a href="#portfolio-snapshot">Snapshot</a> ·
+  <a href="#core-expertise">Core Expertise</a> ·
+  <a href="#career-highlights">Career Highlights</a> ·
+  <a href="#selected-research">Selected Research</a> ·
+  <a href="#audit-contest-research">Audit Contests</a> ·
+  <a href="#web3-bug-bounty-research">Web3 Bug Bounties</a> ·
+  <a href="#web2-security-research">Web2 Security</a> ·
+  <a href="#public-cve">Public CVE</a> ·
+  <a href="#research-focus">Research Focus</a> ·
+  <a href="#contact">Contact</a>
+</p>
 
 ---
 
@@ -120,9 +148,12 @@ A representative selection of publicly documented findings across smart contract
 
 ## HackenProof · 0xMarkets
 
-![Validated](https://img.shields.io/badge/Validated-9-2ea44f?style=flat-square) ![High](https://img.shields.io/badge/High-7-e67e22?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-2-f59e0b?style=flat-square) ![Rewards](https://img.shields.io/badge/Rewards-%24435.28-0A66C2?style=flat-square)
-
-**9 validated findings · 7 High · 2 Medium · $435.28**
+<p align="center">
+  <img src="https://img.shields.io/badge/Validated-9-2ea44f?style=flat-square" alt="Validated">
+  <img src="https://img.shields.io/badge/High-7-e67e22?style=flat-square" alt="High">
+  <img src="https://img.shields.io/badge/Medium-2-f59e0b?style=flat-square" alt="Medium">
+  <img src="https://img.shields.io/badge/Rewards-%24435.28-0A66C2?style=flat-square" alt="Rewards">
+</p>
 
 | # | Finding | Final Severity | Reward | Writeup |
 |---:|---|---:|---:|---|
@@ -142,9 +173,10 @@ A representative selection of publicly documented findings across smart contract
 
 ## HackenProof · Overlayer DualDefense
 
-![Critical](https://img.shields.io/badge/Critical-1-b91c1c?style=flat-square) ![Reward](https://img.shields.io/badge/Reward-%2468.97-0A66C2?style=flat-square)
-
-**1 Critical · $68.97**
+<p align="center">
+  <img src="https://img.shields.io/badge/Critical-1-b91c1c?style=flat-square" alt="Critical">
+  <img src="https://img.shields.io/badge/Reward-%2468.97-0A66C2?style=flat-square" alt="Reward">
+</p>
 
 | Finding | Final Severity | Reward | Public Evidence |
 |---|---:|---:|---|
@@ -154,9 +186,10 @@ A representative selection of publicly documented findings across smart contract
 
 ## HackenProof · ZIGChain Code DualDefense
 
-![Critical](https://img.shields.io/badge/Critical-1-b91c1c?style=flat-square) ![Reward](https://img.shields.io/badge/Reward-%24443.00-0A66C2?style=flat-square)
-
-**1 Critical · $443.00**
+<p align="center">
+  <img src="https://img.shields.io/badge/Critical-1-b91c1c?style=flat-square" alt="Critical">
+  <img src="https://img.shields.io/badge/Reward-%24443.00-0A66C2?style=flat-square" alt="Reward">
+</p>
 
 | Finding | Final Severity | Reward | Public Evidence |
 |---|---:|---:|---|
@@ -166,9 +199,10 @@ A representative selection of publicly documented findings across smart contract
 
 ## Code4rena · Panoptic: Next Core
 
-![Final High](https://img.shields.io/badge/Final_High-H--01-e67e22?style=flat-square) ![Payout](https://img.shields.io/badge/Payout-No_Payout-6b7280?style=flat-square)
-
-**1 High · Published as H-01**
+<p align="center">
+  <img src="https://img.shields.io/badge/Final_High-H--01-e67e22?style=flat-square" alt="Final High">
+  <img src="https://img.shields.io/badge/Payout-No_Payout-6b7280?style=flat-square" alt="Payout">
+</p>
 
 | Finding | Final Severity | Reward | Public Evidence |
 |---|---:|---:|---|
@@ -180,9 +214,12 @@ A representative selection of publicly documented findings across smart contract
 
 ## Code4rena · Rujira
 
-![Placement](https://img.shields.io/badge/Placement-25th-6f42c1?style=flat-square) ![High](https://img.shields.io/badge/High-3-e67e22?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-3-f59e0b?style=flat-square) ![Rewards](https://img.shields.io/badge/Rewards-%24252.39-0A66C2?style=flat-square)
-
-**25th place · 3 High · 3 Medium · $252.39**
+<p align="center">
+  <img src="https://img.shields.io/badge/Placement-25th-6f42c1?style=flat-square" alt="Placement">
+  <img src="https://img.shields.io/badge/High-3-e67e22?style=flat-square" alt="High">
+  <img src="https://img.shields.io/badge/Medium-3-f59e0b?style=flat-square" alt="Medium">
+  <img src="https://img.shields.io/badge/Rewards-%24252.39-0A66C2?style=flat-square" alt="Rewards">
+</p>
 
 | # | Finding | Final Severity | Public Evidence |
 |---:|---|---:|---|
@@ -197,9 +234,10 @@ A representative selection of publicly documented findings across smart contract
 
 ## Sherlock · Fluid DEX V2
 
-![High](https://img.shields.io/badge/High-1-e67e22?style=flat-square) ![Reward](https://img.shields.io/badge/Reward-%2434.00-0A66C2?style=flat-square)
-
-**1 High · $34.00**
+<p align="center">
+  <img src="https://img.shields.io/badge/High-1-e67e22?style=flat-square" alt="High">
+  <img src="https://img.shields.io/badge/Reward-%2434.00-0A66C2?style=flat-square" alt="Reward">
+</p>
 
 | Finding | Final Severity | Reward | Public Evidence |
 |---|---:|---:|---|
@@ -209,9 +247,10 @@ A representative selection of publicly documented findings across smart contract
 
 ## Sherlock · CurrentSui
 
-![Final Medium](https://img.shields.io/badge/Final_Medium-2-f59e0b?style=flat-square) ![Rewards](https://img.shields.io/badge/Rewards-%24184.48-0A66C2?style=flat-square)
-
-**2 Medium · $184.48**
+<p align="center">
+  <img src="https://img.shields.io/badge/Final_Medium-2-f59e0b?style=flat-square" alt="Final Medium">
+  <img src="https://img.shields.io/badge/Rewards-%24184.48-0A66C2?style=flat-square" alt="Rewards">
+</p>
 
 | # | Finding | Submitted | Final | Reward | Public Evidence |
 |---:|---|---:|---:|---:|---|
@@ -232,11 +271,17 @@ A representative selection of publicly documented findings across smart contract
 
 ## CertiK Skynet · WEMIX
 
-![Valid Reports](https://img.shields.io/badge/Valid_Reports-10-2ea44f?style=flat-square) ![Rewarded](https://img.shields.io/badge/Rewarded-10-0A66C2?style=flat-square) ![Public Articles](https://img.shields.io/badge/Public_Articles-10-6f42c1?style=flat-square) ![Rewards](https://img.shields.io/badge/Rewards-%241%2C400.00-f59e0b?style=flat-square)
+<p align="center">
+  <img src="https://img.shields.io/badge/Valid_Reports-10-2ea44f?style=flat-square" alt="Valid Reports">
+  <img src="https://img.shields.io/badge/Rewarded-10-0A66C2?style=flat-square" alt="Rewarded">
+  <img src="https://img.shields.io/badge/Public_Articles-10-6f42c1?style=flat-square" alt="Public Articles">
+  <img src="https://img.shields.io/badge/Rewards-%241%2C400.00-f59e0b?style=flat-square" alt="Rewards">
+</p>
 
-### 10 Valid Reports · 10 Rewards · 10 Public Articles · $1,400.00
-
-![WEMIX Medium](https://img.shields.io/badge/Final_Medium-1-f59e0b?style=flat-square) ![WEMIX Low](https://img.shields.io/badge/Final_Low-9-2563eb?style=flat-square)
+<p align="center">
+  <img src="https://img.shields.io/badge/Final_Medium-1-f59e0b?style=flat-square" alt="WEMIX Medium">
+  <img src="https://img.shields.io/badge/Final_Low-9-2563eb?style=flat-square" alt="WEMIX Low">
+</p>
 
 | # | Finding | Submitted | Final | Reward | Evidence |
 |---:|---|---:|---:|---:|---|
@@ -300,9 +345,10 @@ The fully participated ballot remained active because integer-truncated weights 
 
 ## HackenProof · Momentum
 
-![Final Low](https://img.shields.io/badge/Final_Low-1-2563eb?style=flat-square) ![Reward](https://img.shields.io/badge/Reward-%24100.00-0A66C2?style=flat-square)
-
-**1 Low · $100.00**
+<p align="center">
+  <img src="https://img.shields.io/badge/Final_Low-1-2563eb?style=flat-square" alt="Final Low">
+  <img src="https://img.shields.io/badge/Reward-%24100.00-0A66C2?style=flat-square" alt="Reward">
+</p>
 
 | Finding | Submitted | Final | Reward | Evidence |
 |---|---:|---:|---:|---|
@@ -312,9 +358,12 @@ The fully participated ballot remained active because integer-truncated weights 
 
 ## CertiK SkyShield · CROSS
 
-![Valid Reports](https://img.shields.io/badge/Valid_Reports-2-2ea44f?style=flat-square) ![Rewarded](https://img.shields.io/badge/Rewarded-2-0A66C2?style=flat-square) ![Final Low](https://img.shields.io/badge/Final_Low-2-2563eb?style=flat-square) ![Rewards](https://img.shields.io/badge/Rewards-%24218.80-f59e0b?style=flat-square)
-
-**2 valid reports · 2 rewards · $218.80**
+<p align="center">
+  <img src="https://img.shields.io/badge/Valid_Reports-2-2ea44f?style=flat-square" alt="Valid Reports">
+  <img src="https://img.shields.io/badge/Rewarded-2-0A66C2?style=flat-square" alt="Rewarded">
+  <img src="https://img.shields.io/badge/Final_Low-2-2563eb?style=flat-square" alt="Final Low">
+  <img src="https://img.shields.io/badge/Rewards-%24218.80-f59e0b?style=flat-square" alt="Rewards">
+</p>
 
 | # | Finding | Submitted | Final | Reward | Evidence |
 |---:|---|---:|---:|---:|---|
@@ -337,11 +386,13 @@ The fully participated ballot remained active because integer-truncated weights 
 
 Web2 research focuses on application security, logging and telemetry integrity, parser and serialization behavior, attacker-controlled input handling, safe failure modes, and coordinated vulnerability disclosure.
 
-![Web2 Security](https://img.shields.io/badge/Web2-Security-2563eb?style=flat-square)
-![Application Security](https://img.shields.io/badge/Application-Security-0A66C2?style=flat-square)
-![Logging Integrity](https://img.shields.io/badge/Logging-Integrity-6f42c1?style=flat-square)
-![Parser Security](https://img.shields.io/badge/Parser-Security-f59e0b?style=flat-square)
-![Public CVE](https://img.shields.io/badge/Public_CVE-1-b91c1c?style=flat-square)
+<p align="center">
+  <img src="https://img.shields.io/badge/Web2-Security-2563eb?style=flat-square" alt="Web2 Security">
+  <img src="https://img.shields.io/badge/Application-Security-0A66C2?style=flat-square" alt="Application Security">
+  <img src="https://img.shields.io/badge/Logging-Integrity-6f42c1?style=flat-square" alt="Logging Integrity">
+  <img src="https://img.shields.io/badge/Parser-Security-f59e0b?style=flat-square" alt="Parser Security">
+  <img src="https://img.shields.io/badge/Public_CVE-1-b91c1c?style=flat-square" alt="Public CVE">
+</p>
 
 ## Web2 Research Profile
 
@@ -357,7 +408,11 @@ Web2 research focuses on application security, logging and telemetry integrity, 
 
 ### CVE-2026-40021 · Apache Log4net
 
-![Vendor Severity](https://img.shields.io/badge/Vendor_Severity-Medium-f59e0b?style=flat-square) ![CVSS 4.0](https://img.shields.io/badge/CVSS_4.0-6.3-f59e0b?style=flat-square) ![Fixed](https://img.shields.io/badge/Fixed-3.3.0-2ea44f?style=flat-square)
+<p align="center">
+  <img src="https://img.shields.io/badge/Vendor_Severity-Medium-f59e0b?style=flat-square" alt="Vendor Severity">
+  <img src="https://img.shields.io/badge/CVSS_4.0-6.3-f59e0b?style=flat-square" alt="CVSS 4.0">
+  <img src="https://img.shields.io/badge/Fixed-3.3.0-2ea44f?style=flat-square" alt="Fixed">
+</p>
 
 ### Silent loss of log events in `XmlLayout` and `XmlLayoutSchemaLog4J` caused by unescaped XML 1.0 forbidden characters
 
@@ -429,11 +484,16 @@ Private, pending, rejected, and embargoed reports are excluded.
 
 # Contact
 
-[![GitHub](https://img.shields.io/badge/GitHub-f00dat-181717?style=for-the-badge&logo=github)](https://github.com/f00dat)
-[![DEV](https://img.shields.io/badge/DEV-Technical_Writeups-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/f00dat)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel_Alves-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/danielalvesads/)
+<p align="center">
+  <a href="https://github.com/f00dat"><img src="https://img.shields.io/badge/GitHub-f00dat-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
+  <a href="https://dev.to/f00dat"><img src="https://img.shields.io/badge/DEV-Technical_Writeups-0A0A0A?style=for-the-badge&logo=devdotto" alt="DEV"></a>
+  <a href="https://www.linkedin.com/in/danielalvesads/"><img src="https://img.shields.io/badge/LinkedIn-Daniel_Alves-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
+</p>
 
----
+<p align="center">
+  Research handle: <code>f00dat</code>
+</p>
 
-Research handle: `f00dat`  
-Web3 and Web2 security research portfolio built around reproducibility, public evidence, measurable impact, and technically bounded claims.
+<p align="center">
+  Web3 and Web2 security research portfolio built around reproducibility, public evidence, measurable impact, and technically bounded claims.
+</p>
