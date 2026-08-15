@@ -27,7 +27,50 @@
   Primary research handle: <code>f00dat</code> · Code4rena credit: <code>I1iveF0rTh1Sh1t</code>
 </p>
 
+<h2 align="center">Certifications</h2>
+
+<h3 align="center">Offensive Security · Web3 · AppSec</h3>
+
+<p align="center">
+  <a href="https://f00dat.github.io/credential-verifier/?cert=caimlpen"><img src="https://img.shields.io/badge/C--AI%2FMLPen-The_SecOps_Group-7c3aed?style=for-the-badge" alt="Certified AI/ML Pentester (C-AI/MLPen) | The SecOps Group"></a>
+  <a href="https://f00dat.github.io/credential-verifier/?cert=cbp"><img src="https://img.shields.io/badge/CBP-The_SecOps_Group-f59e0b?style=for-the-badge" alt="Certified Blockchain Practitioner (CBP) | The SecOps Group"></a>
+  <a href="https://www.credential.net/e4f09ed9-1475-4739-b217-fe4ef6d40a44#acc.0KtaDZNT"><img src="https://img.shields.io/badge/CW3H-101_Blockchains-6f42c1?style=for-the-badge" alt="Certified Web3 Hacker (CW3H) | 101 Blockchains"></a>
+  <a href="https://f00dat.github.io/credential-verifier/?cert=cnsp"><img src="https://img.shields.io/badge/CNSP-The_SecOps_Group-2563eb?style=for-the-badge" alt="Certified Network Security Practitioner (CNSP) | The SecOps Group"></a>
+  <a href="https://f00dat.github.io/credential-verifier/?cert=cap"><img src="https://img.shields.io/badge/CAP-The_SecOps_Group-2ea44f?style=for-the-badge" alt="Certified AppSec Practitioner (CAP) | The SecOps Group"></a>
+</p>
+
+<p align="center">
+  <sub>SecOps credentials are verified live through the official PentestingExams validation service.</sub>
+</p>
+
+| Certification | Issuer | Verification |
+|---|---|---|
+| **Certified AI/ML Pentester (C-AI/MLPen)** | The SecOps Group | [Verify](https://f00dat.github.io/credential-verifier/?cert=caimlpen) |
+| **Certified Blockchain Practitioner (CBP)** | The SecOps Group | [Verify](https://f00dat.github.io/credential-verifier/?cert=cbp) |
+| **Certified Web3 Hacker (CW3H)** | 101 Blockchains | [Credential](https://www.credential.net/e4f09ed9-1475-4739-b217-fe4ef6d40a44#acc.0KtaDZNT) |
+| **Certified Network Security Practitioner (CNSP)** | The SecOps Group | [Verify](https://f00dat.github.io/credential-verifier/?cert=cnsp) |
+| **Certified AppSec Practitioner (CAP)** | The SecOps Group | [Verify](https://f00dat.github.io/credential-verifier/?cert=cap) |
+
+<h3 align="center">Governance · ISO · Data Protection</h3>
+
+<p align="center">
+  <a href="https://www.credly.com/badges/64103e3c-8adf-43f7-9c2f-c2f0c2a7ef48"><img src="https://img.shields.io/badge/I27001F-CertiProf-0A66C2?style=for-the-badge" alt="Certified ISO 27001 Foundation | I27001F"></a>
+  <a href="https://www.credly.com/badges/7128cd76-87e9-4aec-a57a-00592bd2eb07"><img src="https://img.shields.io/badge/I22301F-CertiProf-0A66C2?style=for-the-badge" alt="Certified ISO 22301 Foundation | I22301F"></a>
+  <a href="https://www.credly.com/badges/eae9ef65-fbbc-4664-acb0-f371b3ad8ee6"><img src="https://img.shields.io/badge/LGPDF-CertiProf-2ea44f?style=for-the-badge" alt="Data Protection General Law Foundation | LGPDF"></a>
+  <a href="https://www.credly.com/badges/0cc7c57f-8614-4943-b2ee-7434a09078fc"><img src="https://img.shields.io/badge/I27001IA-CertiProf-f59e0b?style=for-the-badge" alt="Certified ISO 27001 Internal Auditor | I27001IA"></a>
+  <a href="https://www.credly.com/badges/c80d399d-a4a7-4ef6-b23f-2e5c2103e734"><img src="https://img.shields.io/badge/I27001LA-CertiProf-b91c1c?style=for-the-badge" alt="Certified ISO 27001 Lead Auditor | I27001LA"></a>
+</p>
+
+| Certification | Issuer | Credential |
+|---|---|---|
+| **Certified ISO 27001 Foundation · I27001F** | CertiProf | [Credly](https://www.credly.com/badges/64103e3c-8adf-43f7-9c2f-c2f0c2a7ef48) |
+| **Certified ISO 22301 Foundation · I22301F** | CertiProf | [Credly](https://www.credly.com/badges/7128cd76-87e9-4aec-a57a-00592bd2eb07) |
+| **Data Protection General Law Foundation · LGPDF** | CertiProf | [Credly](https://www.credly.com/badges/eae9ef65-fbbc-4664-acb0-f371b3ad8ee6) |
+| **Certified ISO 27001 Internal Auditor · I27001IA** | CertiProf | [Credly](https://www.credly.com/badges/0cc7c57f-8614-4943-b2ee-7434a09078fc) |
+| **Certified ISO 27001 Lead Auditor · I27001LA** | CertiProf | [Credly](https://www.credly.com/badges/c80d399d-a4a7-4ef6-b23f-2e5c2103e734) |
+
 ---
+
 
 <h2 align="center">Professional Summary</h2>
 
@@ -113,6 +156,7 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
   <a href="#portfolio-snapshot">Snapshot</a> ·
   <a href="#core-expertise">Core Expertise</a> ·
   <a href="#career-highlights">Career Highlights</a> ·
+  <a href="#certifications">Certifications</a> ·
   <a href="#selected-research">Selected Research</a> ·
   <a href="#audit-contest-research">Audit Contests</a> ·
   <a href="#web3-bug-bounty-research">Web3 Bug Bounties</a> ·
