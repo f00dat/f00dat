@@ -15,16 +15,18 @@
 </p>
 
 <p align="center">
+  <a href="https://code4rena.com/@I1iveF0rTh1Sh1t"><img src="https://img.shields.io/badge/Code4rena-I1iveF0rTh1Sh1t-7c3aed?style=for-the-badge" alt="Code4rena profile"></a>
+  <a href="https://hackenproof.com/hackers/I1iveF0rTh1sSh1t"><img src="https://img.shields.io/badge/HackenProof-I1iveF0rTh1sSh1t-2563eb?style=for-the-badge" alt="HackenProof profile"></a>
+  <a href="https://audits.sherlock.xyz/watson/I1iveF0rTh1Sh1t"><img src="https://img.shields.io/badge/Sherlock-I1iveF0rTh1Sh1t-111827?style=for-the-badge" alt="Sherlock Watson profile"></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Web3-Security-6f42c1?style=flat-square" alt="Web3 Security">
   <img src="https://img.shields.io/badge/Blockchain-Security-7c3aed?style=flat-square" alt="Blockchain Security">
   <img src="https://img.shields.io/badge/DeFi-Security-f59e0b?style=flat-square" alt="DeFi Security">
   <img src="https://img.shields.io/badge/Smart_Contracts-Auditing-2ea44f?style=flat-square" alt="Smart Contract Auditing">
   <img src="https://img.shields.io/badge/Web2-Vulnerability_Research-2563eb?style=flat-square" alt="Web2 Vulnerability Research">
   <img src="https://img.shields.io/badge/Public_CVE-1-b91c1c?style=flat-square" alt="Public CVE">
-</p>
-
-<p align="center">
-  Primary research handle: <code>f00dat</code> · Code4rena credit: <code>I1iveF0rTh1Sh1t</code>
 </p>
 
 <h2 align="center">Certifications</h2>
