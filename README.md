@@ -78,7 +78,7 @@
 
 Security Researcher focused on vulnerability research across Web3 and Web2, including smart contracts, DeFi, cross-chain systems, blockchain infrastructure, application security, logging integrity, parser behavior, and coordinated vulnerability disclosure.
 
-Public research record includes **34 validated findings** across audit contests and bug bounty programs, including **2 final Critical**, **12 final High**, **34 public technical writeups**, and **1 public CVE in Apache Log4net**.
+Public research record includes **36 validated findings** across audit contests and bug bounty programs, including **4 final Critical**, **12 final High**, **36 public technical writeups**, and **1 public CVE in Apache Log4net**.
 
 My work emphasizes reproducible proofs of concept, real protocol paths, measurable state transitions, explicit control cases, and publicly verifiable evidence.
 
@@ -87,22 +87,22 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 ## Portfolio Snapshot
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Validated_Findings-34-2ea44f?style=for-the-badge" alt="Validated Findings">
-  <img src="https://img.shields.io/badge/Final_Critical-2-b91c1c?style=for-the-badge" alt="Final Critical">
+  <img src="https://img.shields.io/badge/Validated_Findings-36-2ea44f?style=for-the-badge" alt="Validated Findings">
+  <img src="https://img.shields.io/badge/Final_Critical-4-b91c1c?style=for-the-badge" alt="Final Critical">
   <img src="https://img.shields.io/badge/Final_High-12-e67e22?style=for-the-badge" alt="Final High">
   <img src="https://img.shields.io/badge/Public_CVE-1-b91c1c?style=for-the-badge" alt="Public CVE">
-  <img src="https://img.shields.io/badge/Public_Writeups-34-6f42c1?style=for-the-badge" alt="Public Writeups">
+  <img src="https://img.shields.io/badge/Public_Writeups-36-6f42c1?style=for-the-badge" alt="Public Writeups">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Rewarded_Findings-33-0A66C2?style=flat-square" alt="Rewarded Findings">
-  <img src="https://img.shields.io/badge/Documented_Rewards-%243%2C136.92-f59e0b?style=flat-square" alt="Documented Rewards">
+  <img src="https://img.shields.io/badge/Rewarded_Findings-35-0A66C2?style=flat-square" alt="Rewarded Findings">
+  <img src="https://img.shields.io/badge/Documented_Rewards-%243%2C150.24-f59e0b?style=flat-square" alt="Documented Rewards">
 </p>
 
 ### Final Severity Distribution
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Critical-2-b91c1c?style=flat-square" alt="Critical">
+  <img src="https://img.shields.io/badge/Critical-4-b91c1c?style=flat-square" alt="Critical">
   <img src="https://img.shields.io/badge/High-12-e67e22?style=flat-square" alt="High">
   <img src="https://img.shields.io/badge/Medium-8-f59e0b?style=flat-square" alt="Medium">
   <img src="https://img.shields.io/badge/Low-12-2563eb?style=flat-square" alt="Low">
@@ -110,9 +110,9 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 
 | Research Channel | Validated | Rewarded | Public Writeups | Documented Rewards |
 |---|---:|---:|---:|---:|
-| Audit contests | 21 | 20 | 21 | $1,418.12 |
+| Audit contests | 23 | 22 | 23 | $1,431.44 |
 | Web3 bug bounties | 13 | 13 | 13 | $1,718.80 |
-| **Combined** | **34** | **33** | **34** | **$3,136.92** |
+| **Combined** | **36** | **35** | **36** | **$3,150.24** |
 
 > Final severity totals use the official classification assigned by each contest, program, or vendor. Submitted severity is preserved separately where it is relevant to the public record. Private, pending, rejected, and embargoed reports are excluded.
 
@@ -120,9 +120,9 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 
 | Record | Public Evidence |
 |---|---|
-| **2 final Critical findings** | [ZIGChain](https://hackenproof.com/reports/ZIGCHDD-74) · [Overlayer](https://hackenproof.com/reports/OVLRSCDD-30) |
-| **10 valid WEMIX reports** across consensus, governance, staking, P2P, DeFi, and reserve accounting | [WEMIX research](#certik-skynet--wemix) |
-| **9 validated 0xMarkets findings** across oracle, vault, execution-fee, share-accounting, and redemption paths | [0xMarkets research](#hackenproof--0xmarkets) |
+| **4 final Critical findings** | [ZIGChain](https://hackenproof.com/reports/ZIGCHDD-74) · [Overlayer](https://hackenproof.com/reports/OVLRSCDD-30) · [TipRun Deleverage](https://dev.to/f00dat/how-tipruns-unsigned-deleverage-path-allowed-arbitrary-collateral-transfers-edg) · [TipRun Liquidation](https://dev.to/f00dat/how-tipruns-liquidation-path-could-force-healthy-accounts-into-arbitrary-terms-3n3m) |
+| **10 valid WEMIX reports** across consensus, governance, staking, P2P, DeFi, and reserve accounting | [WEMIX research](#wemixresearch) |
+| **9 validated 0xMarkets findings** across oracle, vault, execution-fee, share-accounting, and redemption paths | [0xMarkets research](#markets0xresearch) |
 | **1 public CVE** in Apache Log4net | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
 
 ---
@@ -143,10 +143,10 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 
 ## Career Highlights
 
-- 34 validated security findings across public audit contests and bug bounty programs.
-- 2 final Critical and 12 final High findings across cross-chain, DeFi, smart contracts, and protocol infrastructure.
+- 36 validated security findings across public audit contests and bug bounty programs.
+- 4 final Critical and 12 final High findings across cross-chain, DeFi, smart contracts, and protocol infrastructure.
 - 1 public Web2 CVE in Apache Log4net, credited to `f00dat`.
-- 34 public technical writeups with reproducible evidence and impact analysis.
+- 36 public technical writeups with reproducible evidence and impact analysis.
 - Public research record across CertiK, HackenProof, Code4rena, Sherlock, and YesWeHack.
 - Research spans both Web3 protocol security and Web2 application, logging, parser, and disclosure workflows.
 
@@ -156,15 +156,11 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 
 <p align="center">
   <a href="#portfolio-snapshot">Snapshot</a> ·
-  <a href="#core-expertise">Core Expertise</a> ·
-  <a href="#career-highlights">Career Highlights</a> ·
   <a href="#certifications">Certifications</a> ·
   <a href="#selected-research">Selected Research</a> ·
   <a href="#audit-contest-research">Audit Contests</a> ·
-  <a href="#web3-bug-bounty-research">Web3 Bug Bounties</a> ·
-  <a href="#web2-security-research">Web2 Security</a> ·
-  <a href="#public-cve">Public CVE</a> ·
-  <a href="#research-focus">Research Focus</a> ·
+  <a href="#web3-bug-bounty-research">Bug Bounties</a> ·
+  <a href="#web2-security-research">Web2</a> ·
   <a href="#contact">Contact</a>
 </p>
 
@@ -172,27 +168,60 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 
 ## Selected Research
 
-A representative selection of publicly documented findings across smart contracts, protocol accounting, cross-chain systems, consensus, trading infrastructure, and Web2.
+A representative selection of publicly documented findings, organized by research channel and platform.
+
+### HackenProof Audit Contests
 
 | Project | Finding | Severity Record | Public Evidence |
 |---|---|---:|---|
 | **ZIGChain** | Untrusted IBC voucher collision drained native token wrapper reserves | **Critical** | [Article](https://dev.to/f00dat/how-a-base-denom-collision-let-untrusted-ibc-vouchers-drain-zigchains-native-reserves-3o5j) · [Report](https://hackenproof.com/reports/ZIGCHDD-74) |
 | **Overlayer** | Destination-local counter underflow stranded first inbound transfers | **Critical** | [Article](https://dev.to/f00dat/how-overlayers-destination-local-counter-permanently-stranded-first-inbound-transfers-7i7) · [Report](https://hackenproof.com/reports/OVLRSCDD-30) |
-| **Panoptic** | Reinitializable `BuilderWallet` enabled admin replacement and builder-fee theft | **High** | [Article](https://dev.to/f00dat/how-a-reinitializable-builderwallet-let-anyone-steal-builder-fees-586d) · [Final Report](https://code4rena.com/reports/2025-12-panoptic-next-core#h-01-builderwallet-init-is-unprotectedre-initializable-enabling-takeover-and-theft-of-builder-fees) |
+| **TipRun** | Unsigned `TYPE_DELEVERAGE` accepted unconstrained economic terms and allowed arbitrary collateral transfer through the authorized batch path | **High → Critical** | [Article](https://dev.to/f00dat/how-tipruns-unsigned-deleverage-path-allowed-arbitrary-collateral-transfers-edg) |
+| **TipRun** | `TYPE_LIQUIDATE` applied liquidator signed terms to healthy accounts without liquidation eligibility or oracle price bounds | **High → Critical** | [Article](https://dev.to/f00dat/how-tipruns-liquidation-path-could-force-healthy-accounts-into-arbitrary-terms-3n3m) |
 | **0xMarkets** | Stale GLV share pricing captured pending insurance recapitalization | **High** | [Article](https://dev.to/f00dat/how-stale-glv-share-pricing-allowed-new-depositors-to-capture-pending-insurance-recapitalization-5fn6) |
-| **Fluid DEX V2** | Over-balance withdrawal debited a capped MoneyMarket position while forwarding the uncapped amount to pooled Liquidity | **High** | [Article](https://dev.to/f00dat/how-a-1-usdc-position-let-an-attacker-withdraw-800-usdc-from-fluid-moneymarkets-shared-liquidity-4pcn) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1225/voting/860) |
+
+### Code4rena Audit Contests
+
+| Project | Finding | Severity Record | Public Evidence |
+|---|---|---:|---|
+| **Panoptic** | Reinitializable `BuilderWallet` enabled admin replacement and builder fee theft | **High** | [Article](https://dev.to/f00dat/how-a-reinitializable-builderwallet-let-anyone-steal-builder-fees-586d) · [Final Report](https://code4rena.com/reports/2025-12-panoptic-next-core#h-01-builderwallet-init-is-unprotectedre-initializable-enabling-takeover-and-theft-of-builder-fees) |
+
+### Sherlock Audit Contests
+
+| Project | Finding | Severity Record | Public Evidence |
+|---|---|---:|---|
+| **Fluid DEX V2** | Over balance withdrawal debited a capped MoneyMarket position while forwarding the uncapped amount to pooled Liquidity | **High** | [Article](https://dev.to/f00dat/how-a-1-usdc-position-let-an-attacker-withdraw-800-usdc-from-fluid-moneymarkets-shared-liquidity-4pcn) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1225/voting/860) |
 | **CurrentSui** | Expired reward pool closure could refund borrower yield before lazy reward materialization | **High → Medium** | [Article](https://dev.to/f00dat/how-an-expired-currentsui-reward-pool-could-refund-yield-borrowers-had-already-earned-32aa) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1256/voting/154) |
-| **CurrentSui** | Double subtraction of `cash_reserve` reopened full markets and diverted active liquidity-mining rewards | **Medium** | [Article](https://dev.to/f00dat/how-double-subtracting-cashreserve-reopened-full-currentsui-markets-and-diverted-liquidity-mining-160m) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1256/voting/244) |
-| **CROSS** | Positive `offsetSeconds` restored mint capacity before the configured period ended, allowing `2 × LIMIT` inside one intended period | **Critical → Low** | [Article](https://dev.to/f00dat/how-a-positive-offsetseconds-bug-let-a-cross-forge-mint-2x-the-intended-erc20-period-limit-eon) · [Report](https://gist.github.com/f00dat/fe7084f0045a3e69434ad973ad2a21d2) |
-| **CROSS** | Constructor-bypass maker order could repeatedly revert native CROSS pair matching through auto-unwrapped payouts | **Medium → Low** | [Article](https://dev.to/f00dat/how-a-constructor-bypass-let-malicious-cross-makers-block-native-pair-matching-3n64) · [Report](https://gist.github.com/f00dat/f4cd5aaaebc649999cb730606c31f17b) |
+| **CurrentSui** | Double subtraction of `cash_reserve` reopened full markets and diverted active liquidity mining rewards | **Medium** | [Article](https://dev.to/f00dat/how-double-subtracting-cashreserve-reopened-full-currentsui-markets-and-diverted-liquidity-mining-160m) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1256/voting/244) |
+
+### Web3 Bug Bounty Programs
+
+| Project | Finding | Severity Record | Public Evidence |
+|---|---|---:|---|
 | **WEMIX** | Removed validator remained accepted as signer and reward recipient | **Critical → Medium** | [Article](https://dev.to/f00dat/how-wemix-kept-accepting-a-removed-validator-as-an-active-signer-1135) · [Report](https://gist.github.com/f00dat/96219a676da64aeef5eadf174cb0b442) |
+| **CROSS** | Positive `offsetSeconds` restored mint capacity before the configured period ended, allowing `2 × LIMIT` inside one intended period | **Critical → Low** | [Article](https://dev.to/f00dat/how-a-positive-offsetseconds-bug-let-a-cross-forge-mint-2x-the-intended-erc20-period-limit-eon) · [Report](https://gist.github.com/f00dat/fe7084f0045a3e69434ad973ad2a21d2) |
+| **CROSS** | Constructor bypass maker order could repeatedly revert native CROSS pair matching through auto unwrapped payouts | **Medium → Low** | [Article](https://dev.to/f00dat/how-a-constructor-bypass-let-malicious-cross-makers-block-native-pair-matching-3n64) · [Report](https://gist.github.com/f00dat/f4cd5aaaebc649999cb730606c31f17b) |
+
+### Web2 Research
+
+| Project | Finding | Severity Record | Public Evidence |
+|---|---|---:|---|
 | **Apache Log4net** | XML 1.0 forbidden characters could silently suppress log records | **Medium** | [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
 
 ---
 
 # Audit Contest Research
 
-## HackenProof · 0xMarkets
+> Protocol sections are collapsible to keep the portfolio readable on desktop and mobile. Expand a protocol to view its findings, rewards, and public evidence.
+
+## HackenProof Audit Contests
+
+All HackenProof contest findings are grouped here by audited protocol.
+
+<a id="markets0xresearch"></a>
+
+<details>
+<summary><strong>0xMarkets · 9 validated · 7 High · 2 Medium · $435.28</strong></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Validated-9-2ea44f?style=flat-square" alt="Validated">
@@ -215,9 +244,10 @@ A representative selection of publicly documented findings across smart contract
 
 > The contest total is preserved above. The latest publicly documented 0xMarkets findings include small individual pool allocations such as $0.52 for the CarthaVault Oracle-lifetime issue. Other very small allocations remain grouped into the contest total so the table emphasizes validated technical impact rather than payout mechanics.
 
----
+</details>
 
-## HackenProof · Overlayer DualDefense
+<details>
+<summary><strong>Overlayer DualDefense · 1 Critical · $68.97</strong></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Critical-1-b91c1c?style=flat-square" alt="Critical">
@@ -228,9 +258,12 @@ A representative selection of publicly documented findings across smart contract
 |---|---:|---:|---|
 | Destination-local `totalBridgedOut` underflow permanently stranded first inbound transfers | Critical | $68.97 | [Article](https://dev.to/f00dat/how-overlayers-destination-local-counter-permanently-stranded-first-inbound-transfers-7i7) · [Report](https://hackenproof.com/reports/OVLRSCDD-30) |
 
----
+> The HackenProof disclosed report displays the bounty rounded to `$69`. This portfolio preserves the exact `$68.97` allocation used in the documented reward totals.
 
-## HackenProof · ZIGChain Code DualDefense
+</details>
+
+<details>
+<summary><strong>ZIGChain Code DualDefense · 1 Critical · $443.00</strong></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Critical-1-b91c1c?style=flat-square" alt="Critical">
@@ -241,9 +274,33 @@ A representative selection of publicly documented findings across smart contract
 |---|---:|---:|---|
 | Base-denom-only validation let untrusted IBC vouchers drain native token wrapper reserves | Critical | $443.00 | [Article](https://dev.to/f00dat/how-a-base-denom-collision-let-untrusted-ibc-vouchers-drain-zigchains-native-reserves-3o5j) · [Report](https://hackenproof.com/reports/ZIGCHDD-74) |
 
----
+</details>
 
-## Code4rena · Panoptic: Next Core
+<details open>
+<summary><strong>TipRun · 2 Critical · 2 public articles · $13.32</strong></summary>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Validated-2-2ea44f?style=flat-square" alt="Validated">
+  <img src="https://img.shields.io/badge/Final_Critical-2-b91c1c?style=flat-square" alt="Final Critical">
+  <img src="https://img.shields.io/badge/Public_Articles-2-6f42c1?style=flat-square" alt="Public Articles">
+  <img src="https://img.shields.io/badge/Rewards-%2413.32-0A66C2?style=flat-square" alt="Rewards">
+</p>
+
+| # | Finding | Submitted | Final | Reward | Public Evidence |
+|---:|---|---:|---:|---:|---|
+| 1 | Unsigned `TYPE_DELEVERAGE` accepted unconstrained terms, allowing arbitrary collateral transfer through the authorized batch trust boundary | High | Critical | $8.48 | [Article](https://dev.to/f00dat/how-tipruns-unsigned-deleverage-path-allowed-arbitrary-collateral-transfers-edg) |
+| 2 | `TYPE_LIQUIDATE` applied liquidator signed terms to healthy accounts without liquidation eligibility or oracle price bounds | High | Critical | $4.84 | [Article](https://dev.to/f00dat/how-tipruns-liquidation-path-could-force-healthy-accounts-into-arbitrary-terms-3n3m) |
+
+> HackenProof validated both findings as Critical. The deleverage issue was independently reported by 27 researchers, while the liquidation issue was independently reported by 31 researchers. Rewards were shared across the valid submissions.
+
+</details>
+
+## Code4rena Audit Contests
+
+All Code4rena contest findings are grouped here by audited protocol.
+
+<details>
+<summary><strong>Panoptic: Next Core · 1 High · No payout</strong></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Final_High-H--01-e67e22?style=flat-square" alt="Final High">
@@ -256,9 +313,10 @@ A representative selection of publicly documented findings across smart contract
 
 > Code4rena credited `I1iveF0rTh1Sh1t` among the researchers who identified the final High finding.
 
----
+</details>
 
-## Code4rena · Rujira
+<details>
+<summary><strong>Rujira · 6 validated · 3 High · 3 Medium · $252.39</strong></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Placement-25th-6f42c1?style=flat-square" alt="Placement">
@@ -276,9 +334,14 @@ A representative selection of publicly documented findings across smart contract
 | 5 | Liquidator could extract a hidden bonus up to `liquidation_max_slip` | High | [Article](https://dev.to/f00dat/how-rujiras-slippage-guard-could-become-a-hidden-liquidation-bonus-58j4) · [Results](https://code4rena.com/audits/2025-12-rujira) |
 | 6 | Unbounded borrower `preference_msgs` could make liquidation economically unexecutable | High | [Article](https://dev.to/f00dat/how-unbounded-borrower-preferences-could-make-rujira-liquidations-economically-impossible-4cf5) · [Results](https://code4rena.com/audits/2025-12-rujira) |
 
----
+</details>
 
-## Sherlock · Fluid DEX V2
+## Sherlock Audit Contests
+
+All Sherlock contest findings are grouped here by audited protocol.
+
+<details>
+<summary><strong>Fluid DEX V2 · 1 High · $34.00</strong></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/High-1-e67e22?style=flat-square" alt="High">
@@ -289,9 +352,10 @@ A representative selection of publicly documented findings across smart contract
 |---|---:|---:|---|
 | Normal supply withdrawal capped the MoneyMarket storage debit but forwarded the full requested amount to Liquidity, allowing withdrawal above balance from pooled funds | High | $34.00 | [Article](https://dev.to/f00dat/how-a-1-usdc-position-let-an-attacker-withdraw-800-usdc-from-fluid-moneymarkets-shared-liquidity-4pcn) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1225/voting/860) |
 
----
+</details>
 
-## Sherlock · CurrentSui
+<details>
+<summary><strong>CurrentSui · 2 Medium · $184.48</strong></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Final_Medium-2-f59e0b?style=flat-square" alt="Final Medium">
@@ -303,19 +367,28 @@ A representative selection of publicly documented findings across smart contract
 | 1 | Expired reward pool close could refund economically accrued borrower yield before lazy reward materialization | High | Medium | $92.24 | [Article](https://dev.to/f00dat/how-an-expired-currentsui-reward-pool-could-refund-yield-borrowers-had-already-earned-32aa) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1256/voting/154) |
 | 2 | Double subtraction of `cash_reserve` bypassed the deposit cap and diverted active liquidity mining rewards | Medium | Medium | $92.24 | [Article](https://dev.to/f00dat/how-double-subtracting-cashreserve-reopened-full-currentsui-markets-and-diverted-liquidity-mining-160m) · [Sherlock Submission](https://audits.sherlock.xyz/contests/1256/voting/244) |
 
----
+</details>
 
 ## Audit Contest Summary
 
 | Critical | High | Medium | Valid | Rewarded | Rewards |
 |---:|---:|---:|---:|---:|---:|
-| **2** | **12** | **7** | **21** | **20** | **$1,418.12** |
+| **4** | **12** | **7** | **23** | **22** | **$1,431.44** |
 
 ---
 
 # Web3 Bug Bounty Research
 
-## CertiK Skynet · WEMIX
+> Bug bounty research is grouped first by platform and then by protocol. Each protocol section can be expanded independently.
+
+## CertiK Bug Bounty Programs
+
+Findings from CertiK programs are grouped by protocol so each research record remains visually self contained.
+
+<a id="wemixresearch"></a>
+
+<details>
+<summary><strong>WEMIX · 10 valid · 1 Medium · 9 Low · $1,400.00</strong></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Valid_Reports-10-2ea44f?style=flat-square" alt="Valid Reports">
@@ -342,7 +415,7 @@ A representative selection of publicly documented findings across smart contract
 | 9 | Raising `minStaking` made an existing NCP unable to participate and unremovable | Major | Low | $100.00 | [Article](https://dev.to/f00dat/how-a-minstaking-increase-could-make-an-understaked-wemix-ncp-unremovable-4je5) · [Report](https://gist.github.com/f00dat/c639b85236f38a6916f8367d40aba766) |
 | 10 | Integer-truncated vote weights blocked governance voting for seven days | Major | Low | $100.00 | [Article](https://dev.to/f00dat/how-integer-truncated-vote-weights-could-lock-wemix-governance-for-seven-days-2efp) · [Report](https://gist.github.com/f00dat/e159e3b949537e59839e667ebbe7f82e) |
 
-### WEMIX Coverage
+#### WEMIX Coverage
 
 | Area | Findings | Main Themes |
 |---|---:|---|
@@ -352,7 +425,7 @@ A representative selection of publicly documented findings across smart contract
 | DeFi and custodial flows | 1 | Native token extraction and LP minting |
 | Exit reserve accounting | 1 | Reserve overwrite and stranded withdrawals |
 
-### Severity Classification Record
+#### Severity Classification Record
 
 | Submitted | Final | Count | Rewards |
 |---|---|---:|---:|
@@ -362,7 +435,7 @@ A representative selection of publicly documented findings across smart contract
 
 > All ten WEMIX reports were accepted as valid, publicly documented, and rewarded. Nine reports submitted as Major were finalized as Low. The public writeups preserve the complete reproduction paths, demonstrated impacts, limitations, and technical basis for the submitted severities. This records a recurring severity divergence across the submissions without assigning a motive to individual decisions.
 
-### Latest governance finding at a glance
+#### Latest governance finding at a glance
 
 ```text
 Eligible members
@@ -386,23 +459,10 @@ Maximum lock duration
 
 The fully participated ballot remained active because integer-truncated weights could never reach the exact `10000` fallback. Since `ballotInVoting` was still occupied, another valid emergency proposal remained blocked until timeout cleanup.
 
+</details>
 
----
-
-## HackenProof · Momentum
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Final_Low-1-2563eb?style=flat-square" alt="Final Low">
-  <img src="https://img.shields.io/badge/Reward-%24100.00-0A66C2?style=flat-square" alt="Reward">
-</p>
-
-| Finding | Submitted | Final | Reward | Evidence |
-|---|---:|---:|---:|---|
-| Zero-liquidity `flash_swap` crossed initialized ticks for free, mutated oracle state, and could stall reward claimability | High | Low | $100.00 | [Article](https://dev.to/f00dat/how-a-zero-liquidity-flash-swap-crossed-momentum-ticks-for-free-and-stalled-rewards-4369) |
-
----
-
-## CertiK SkyShield · CROSS
+<details>
+<summary><strong>CROSS · 2 valid · 2 Low · $218.80</strong></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Valid_Reports-2-2ea44f?style=flat-square" alt="Valid Reports">
@@ -418,7 +478,25 @@ The fully participated ballot remained active because integer-truncated weights 
 
 > Both findings were finalized as Low by CROSS. The public writeups preserve the technical basis for the submitted severities and document the severity disagreements, while the portfolio totals use the official final classifications.
 
----
+</details>
+
+## HackenProof Bug Bounty Programs
+
+Findings from HackenProof bug bounty programs are grouped separately from audit contests.
+
+<details>
+<summary><strong>Momentum · 1 Low · $100.00</strong></summary>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Final_Low-1-2563eb?style=flat-square" alt="Final Low">
+  <img src="https://img.shields.io/badge/Reward-%24100.00-0A66C2?style=flat-square" alt="Reward">
+</p>
+
+| Finding | Submitted | Final | Reward | Evidence |
+|---|---:|---:|---:|---|
+| Zero-liquidity `flash_swap` crossed initialized ticks for free, mutated oracle state, and could stall reward claimability | High | Low | $100.00 | [Article](https://dev.to/f00dat/how-a-zero-liquidity-flash-swap-crossed-momentum-ticks-for-free-and-stalled-rewards-4369) |
+
+</details>
 
 ## Web3 Bug Bounty Summary
 
