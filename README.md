@@ -99,8 +99,8 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Rewarded_Findings-36-0A66C2?style=flat-square" alt="Rewarded Findings">
-  <img src="https://img.shields.io/badge/Documented_Rewards_USD-%243%2C437.37-f59e0b?style=flat-square" alt="Documented Rewards: $3,437.37">
+  <img src="https://img.shields.io/badge/Rewarded_Findings-37-0A66C2?style=flat-square" alt="Rewarded Findings">
+  <img src="https://img.shields.io/badge/Documented_Rewards_USD-%244%2C135.71-f59e0b?style=flat-square" alt="Documented Rewards: $4,135.71">
 </p>
 
 ### Validated Finding Severity Distribution
@@ -118,10 +118,10 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 |---|---:|---:|---:|---:|
 | Audit contests | 23 | 22 | 23 | $1,431.44 |
 | Web3 bug bounties | 13 | 13 | 13 | $1,718.80 |
-| Web2 bug bounties | 2 | 1 | 2 | $287.13 |
-| **Combined** | **38** | **36** | **38** | **$3,437.37** |
+| Web2 bug bounties | 2 | 2 | 2 | $985.47 |
+| **Combined** | **38** | **37** | **38** | **$4,135.71** |
 
-> **USD normalization:** the BigBlueButton / Scalelite bounty was paid as **€250**. For the portfolio total, it is normalized to **$287.13** using the ECB reference rate **1 EUR = 1.1485 USD** published for **31 July 2026**. The normalized documented reward total is therefore **$3,437.37**.
+> **USD normalization:** the BigBlueButton / Scalelite bounty remains normalized to **$287.13** from its original **€250** reward using the ECB reference rate **1 EUR = 1.1485 USD** published for **31 July 2026**. The Apache Log4net CVE reward of **€600** is normalized to **$698.34** using the live EUR/USD rate **1 EUR = 1.1639 USD** on **27 August 2026**. The normalized documented reward total is therefore **$4,135.71**.
 
 > Final severity totals use the official classification assigned by each contest, program, or vendor. Submitted severity is preserved separately where it is relevant to the public record. Private, pending, rejected, and embargoed reports are excluded.
 
@@ -133,7 +133,7 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 | **10 valid WEMIX reports** across consensus, governance, staking, P2P, DeFi, and reserve accounting | [WEMIX research](#wemixresearch) |
 | **9 validated 0xMarkets findings** across oracle, vault, execution-fee, share-accounting, and redemption paths | [0xMarkets research](#markets0xresearch) |
 | **BigBlueButton / Scalelite Web2 bug bounty** · High → Medium · €250 original bounty · $287.13 normalized | [Article](https://dev.to/f00dat/how-scalelite-playback-broke-tenant-isolation-in-bigbluebutton-multitenancy-1o9b) |
-| **CVE 2026 40021 · Apache Log4net · Medium** | [Article](https://dev.to/f00dat/cve-2026-40021-how-invalid-xml-properties-could-silently-drop-log-events-in-apache-log4net-abl) · [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
+| **CVE 2026 40021 · Apache Log4net · Medium · €600 reward · $698.34 normalized** | [Article](https://dev.to/f00dat/cve-2026-40021-how-invalid-xml-properties-could-silently-drop-log-events-in-apache-log4net-abl) · [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
 
 ---
 
@@ -574,23 +574,23 @@ Web2 research focuses on application security, logging and telemetry integrity, 
 
 | Validated Bug Bounty Findings | Rewarded Findings | Final Medium Findings | Public CVE | Public Technical Writeups | Normalized Rewards |
 |---:|---:|---:|---:|---:|---:|
-| **2** | **1** | **2** | **1** | **2** | **$287.13** |
+| **2** | **2** | **2** | **1** | **2** | **$985.47** |
 
-> BigBlueButton / Scalelite and CVE 2026 40021 are both included in validated bug bounty finding totals. The CVE report is currently unpaid, so it increases validated findings, Medium findings, and public writeups without changing rewarded finding or documented reward totals.
+> BigBlueButton / Scalelite and CVE 2026 40021 are both included in validated bug bounty finding totals. Both findings are now rewarded. The CVE reward is **€600**, normalized to **$698.34** for the USD portfolio total using the live EUR/USD rate on **27 August 2026**.
 
 ## Public CVE
 
 <a id="cve202640021"></a>
 
 <details open>
-<summary><strong>CVE 2026 40021 · Apache Log4net · Medium · Public article · Unpaid report</strong></summary>
+<summary><strong>CVE 2026 40021 · Apache Log4net · Medium · Public article · €600 reward · $698.34 normalized</strong></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/CVE-2026--40021-b91c1c?style=flat-square" alt="CVE 2026 40021">
   <img src="https://img.shields.io/badge/Vendor_Severity-Medium-f59e0b?style=flat-square" alt="Vendor Severity Medium">
   <img src="https://img.shields.io/badge/CVSS_4.0-6.3-f59e0b?style=flat-square" alt="CVSS 4.0 score 6.3">
   <img src="https://img.shields.io/badge/Fixed-3.3.0-2ea44f?style=flat-square" alt="Fixed in 3.3.0">
-  <img src="https://img.shields.io/badge/Bounty_Status-Unpaid-6b7280?style=flat-square" alt="Bounty status unpaid">
+  <img src="https://img.shields.io/badge/Reward-%E2%82%AC600_%7C_%24698.34-0A66C2?style=flat-square" alt="Reward €600, normalized to $698.34">
 </p>
 
 ### Silent loss of Log4net events caused by XML 1.0 forbidden characters in structured logging data
@@ -608,7 +608,7 @@ Web2 research focuses on application security, logging and telemetry integrity, 
 | Fixed version | 3.3.0 |
 | Research credit | `f00dat` |
 | Disclosure platform | YesWeHack |
-| Bounty status | Unpaid at publication time |
+| Reward | €600 · $698.34 normalized |
 | Technical writeup | [Read article](https://dev.to/f00dat/cve-2026-40021-how-invalid-xml-properties-could-silently-drop-log-events-in-apache-log4net-abl) |
 
 Attacker influenced property keys, property values, and identity data could introduce XML 1.0 forbidden characters into structured Log4net output. The resulting serialization failure could cause the affected logging event to be dropped, weakening audit trail integrity and security monitoring.
@@ -624,7 +624,7 @@ Attacker influenced property keys, property values, and identity data could intr
 | Upstream fix | [Apache pull request 280](https://github.com/apache/logging-log4net/pull/280) |
 | Public disclosure | [oss security](https://www.openwall.com/lists/oss-security/2026/04/10/11) |
 
-> This report is counted once as a validated Web2 bug bounty finding and is also highlighted as the portfolio’s public CVE. Its unpaid status leaves rewarded finding and documented reward totals unchanged.
+> This report is counted once as a validated Web2 bug bounty finding and is also highlighted as the portfolio’s public CVE. The YesWeHack reward is **€600**, normalized to **$698.34** for the USD portfolio total using the live EUR/USD rate on **27 August 2026**.
 
 </details>
 
