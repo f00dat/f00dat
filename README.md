@@ -124,36 +124,56 @@ Coverage also includes command injection, path traversal, insecure file upload, 
 
 <p align="center">A GitHub native visual roadmap of the path that built the current portfolio.</p>
 
-```mermaid
-flowchart TD
-    A["Foundation<br/>Infrastructure · Networks · Security"] --> B["Offensive Security<br/>Vulnerability Research · Reproducible PoCs"]
-    B --> C["Audit Contests<br/>Code4rena · Sherlock · HackenProof"]
-    C --> D["Web3 Bug Bounties<br/>Smart Contracts · DeFi · Blockchain Infrastructure"]
-    D --> E["Web2 Security Research<br/>Applications · APIs · Logging · Parsers"]
-    E --> F["Public CVE<br/>CVE 2026 40021 · Apache Log4net"]
-    F --> G["Current Portfolio<br/>39 Validated · 38 Rewarded · 39 Writeups"]
+<p align="center">
+  <img src="https://img.shields.io/badge/01-FOUNDATION-111827?style=for-the-badge" alt="Foundation">
+  <br>
+  <strong>Infrastructure · Networks · Security</strong>
+  <br><br>
+  ↓
+  <br><br>
+  <img src="https://img.shields.io/badge/02-OFFENSIVE_SECURITY-312e81?style=for-the-badge" alt="Offensive Security">
+  <br>
+  <strong>Vulnerability Research · Reproducible PoCs</strong>
+  <br><br>
+  ↓
+  <br><br>
+  <img src="https://img.shields.io/badge/03-AUDIT_CONTESTS-4c1d95?style=for-the-badge" alt="Audit Contests">
+  <br>
+  <strong>Code4rena · Sherlock · HackenProof</strong>
+  <br><br>
+  ↓
+  <br><br>
+  <img src="https://img.shields.io/badge/04-WEB3_BUG_BOUNTIES-064e3b?style=for-the-badge" alt="Web3 Bug Bounties">
+  <br>
+  <strong>Smart Contracts · DeFi · Blockchain Infrastructure</strong>
+  <br><br>
+  ↓
+  <br><br>
+  <img src="https://img.shields.io/badge/05-WEB2_SECURITY-0c4a6e?style=for-the-badge" alt="Web2 Security">
+  <br>
+  <strong>Applications · APIs · Logging · Parsers</strong>
+  <br><br>
+  ↓
+  <br><br>
+  <img src="https://img.shields.io/badge/06-PUBLIC_CVE-7f1d1d?style=for-the-badge" alt="Public CVE">
+  <br>
+  <strong>CVE 2026 40021 · Apache Log4net</strong>
+  <br><br>
+  ↓
+  <br><br>
+  <img src="https://img.shields.io/badge/07-CURRENT_PORTFOLIO-78350f?style=for-the-badge" alt="Current Portfolio">
+  <br>
+  <strong>39 Validated · 38 Rewarded · 39 Writeups</strong>
+</p>
 
-    H["Offensive and Web3 Certifications<br/>C-AI/MLPen · CBP · CW3H · CNSP · CAP"] --> G
-    I["Governance and Assurance<br/>ISO 27001 · ISO 22301 · LGPD"] --> G
+<p align="center">
+  <img src="https://img.shields.io/badge/Offensive_%26_Web3-Certifications-1f2937?style=flat-square" alt="Offensive and Web3 Certifications">
+  <img src="https://img.shields.io/badge/Governance_%26_Assurance-Certifications-1f2937?style=flat-square" alt="Governance and Assurance Certifications">
+</p>
 
-    classDef foundation fill:#111827,color:#ffffff,stroke:#374151,stroke-width:2px;
-    classDef offensive fill:#312e81,color:#ffffff,stroke:#6366f1,stroke-width:2px;
-    classDef contest fill:#4c1d95,color:#ffffff,stroke:#8b5cf6,stroke-width:2px;
-    classDef web3 fill:#064e3b,color:#ffffff,stroke:#10b981,stroke-width:2px;
-    classDef web2 fill:#0c4a6e,color:#ffffff,stroke:#0ea5e9,stroke-width:2px;
-    classDef cve fill:#7f1d1d,color:#ffffff,stroke:#ef4444,stroke-width:2px;
-    classDef current fill:#78350f,color:#ffffff,stroke:#f59e0b,stroke-width:3px;
-    classDef cert fill:#1f2937,color:#ffffff,stroke:#9ca3af,stroke-width:2px;
-
-    class A foundation;
-    class B offensive;
-    class C contest;
-    class D web3;
-    class E web2;
-    class F cve;
-    class G current;
-    class H,I cert;
-```
+<p align="center">
+  <sub>C AI MLPen · CBP · CW3H · CNSP · CAP · ISO 27001 · ISO 22301 · LGPD</sub>
+</p>
 
 <details>
 <summary><strong>Journey milestones and portfolio evidence</strong></summary>
@@ -182,14 +202,19 @@ flowchart TD
   <img src="https://img.shields.io/badge/Final_Low-12-2563eb?style=for-the-badge" alt="12 Low">
 </p>
 
-```mermaid
-pie showData
-    title Final Severity Distribution
-    "Critical" : 4
-    "High" : 12
-    "Medium" : 11
-    "Low" : 12
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/Critical-4_of_39-b91c1c?style=for-the-badge" alt="4 Critical findings">
+  <img src="https://img.shields.io/badge/High-12_of_39-e67e22?style=for-the-badge" alt="12 High findings">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Medium-11_of_39-f59e0b?style=for-the-badge" alt="11 Medium findings">
+  <img src="https://img.shields.io/badge/Low-12_of_39-2563eb?style=for-the-badge" alt="12 Low findings">
+</p>
+
+<p align="center">
+  <sub>Critical 10.3% · High 30.8% · Medium 28.2% · Low 30.8%</sub>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/39_Findings-100%25_Publicly_Documented-2ea44f?style=flat-square" alt="39 findings publicly documented">
