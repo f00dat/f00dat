@@ -78,11 +78,15 @@
 
 <h2 align="center">Professional Summary</h2>
 
-Security Researcher focused on vulnerability research across Web3 and Web2, including smart contracts, DeFi, cross-chain systems, blockchain infrastructure, application security, logging integrity, parser behavior, and coordinated vulnerability disclosure.
+Security Researcher focused on two complementary areas: **Web3 Security** and **Web2 Application Security (AppSec)**.
 
-Public research record includes **38 validated findings** across audit contests and bug bounty programs, with **4 final Critical**, **12 final High**, **10 final Medium**, **12 final Low**, and **38 public technical writeups**. The portfolio also includes **1 public CVE in Apache Log4net**.
+In **Web3**, my primary focus is smart contract and protocol security across DeFi, cross-chain systems, blockchain infrastructure, consensus, governance, staking, oracle integrations, token accounting, share pricing, liquidation logic, bridge and message validation, replay protection, authorization boundaries, state transitions, economic invariants, and protocol liveness.
 
-My work emphasizes reproducible proofs of concept, real protocol paths, measurable state transitions, explicit control cases, and publicly verifiable evidence.
+In **Web2 AppSec**, my focus is the security of web applications, APIs, backend services, authentication and authorization flows, input handling, parsers, logging, and security-sensitive integrations. My coverage includes major vulnerability classes such as **Cross-Site Scripting (XSS)**, **SQL Injection**, **Remote Code Execution (RCE)**, **Server-Side Request Forgery (SSRF)**, **IDOR / BOLA**, **authentication bypass**, **authorization and access-control flaws**, **command injection**, **path traversal**, **insecure file upload**, **XML External Entity (XXE)**, **unsafe deserialization**, **Server-Side Template Injection (SSTI)**, **CSRF**, **open redirects**, **business logic vulnerabilities**, and security failures involving logging, serialization, and malformed or attacker-controlled input.
+
+Public research record includes **39 validated findings** across audit contests and bug bounty programs, with **4 final Critical**, **12 final High**, **11 final Medium**, **12 final Low**, and **39 public technical writeups**. The portfolio also includes **1 public CVE in Apache Log4net**.
+
+My work emphasizes reproducible proofs of concept, real application and protocol paths, measurable security impact, explicit control cases, technically bounded claims, and publicly verifiable evidence.
 
 ---
 
@@ -91,16 +95,16 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 ## Portfolio Snapshot
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Validated_Findings-38-2ea44f?style=for-the-badge" alt="Validated Findings">
+  <img src="https://img.shields.io/badge/Validated_Findings-39-2ea44f?style=for-the-badge" alt="Validated Findings">
   <img src="https://img.shields.io/badge/Final_Critical-4-b91c1c?style=for-the-badge" alt="Final Critical">
   <img src="https://img.shields.io/badge/Final_High-12-e67e22?style=for-the-badge" alt="Final High">
   <img src="https://img.shields.io/badge/Public_CVE-1-b91c1c?style=for-the-badge" alt="Public CVE">
-  <img src="https://img.shields.io/badge/Public_Writeups-38-6f42c1?style=for-the-badge" alt="Public Writeups">
+  <img src="https://img.shields.io/badge/Public_Writeups-39-6f42c1?style=for-the-badge" alt="Public Writeups">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Rewarded_Findings-37-0A66C2?style=flat-square" alt="Rewarded Findings">
-  <img src="https://img.shields.io/badge/Documented_Rewards_USD-%244%2C135.71-f59e0b?style=flat-square" alt="Documented Rewards: $4,135.71">
+  <img src="https://img.shields.io/badge/Rewarded_Findings-38-0A66C2?style=flat-square" alt="Rewarded Findings">
+  <img src="https://img.shields.io/badge/Documented_Rewards_USD-%244%2C635.71-f59e0b?style=flat-square" alt="Documented Rewards: $4,635.71">
 </p>
 
 ### Validated Finding Severity Distribution
@@ -108,20 +112,20 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 <p align="center">
   <img src="https://img.shields.io/badge/Critical-4-b91c1c?style=flat-square" alt="Critical">
   <img src="https://img.shields.io/badge/High-12-e67e22?style=flat-square" alt="High">
-  <img src="https://img.shields.io/badge/Medium-10-f59e0b?style=flat-square" alt="Medium">
+  <img src="https://img.shields.io/badge/Medium-11-f59e0b?style=flat-square" alt="Medium">
   <img src="https://img.shields.io/badge/Low-12-2563eb?style=flat-square" alt="Low">
 </p>
 
-> The severity distribution covers all **38 validated audit contest and bug bounty findings**. **CVE-2026-40021** is one of those validated findings and is also highlighted separately because it received a public CVE identifier.
+> The severity distribution covers all **39 validated audit contest and bug bounty findings**. **CVE-2026-40021** is one of those validated findings and is also highlighted separately because it received a public CVE identifier.
 
 | Research Channel | Validated | Rewarded | Public Writeups | Documented Rewards |
 |---|---:|---:|---:|---:|
 | Audit contests | 23 | 22 | 23 | $1,431.44 |
-| Web3 bug bounties | 13 | 13 | 13 | $1,718.80 |
+| Web3 bug bounties | 14 | 14 | 14 | $2,218.80 |
 | Web2 bug bounties | 2 | 2 | 2 | $985.47 |
-| **Combined** | **38** | **37** | **38** | **$4,135.71** |
+| **Combined** | **39** | **38** | **39** | **$4,635.71** |
 
-> **USD normalization:** the BigBlueButton / Scalelite bounty remains normalized to **$287.13** from its original **€250** reward using the ECB reference rate **1 EUR = 1.1485 USD** published for **31 July 2026**. The Apache Log4net CVE reward of **€600** is normalized to **$698.34** using the live EUR/USD rate **1 EUR = 1.1639 USD** on **27 August 2026**. The normalized documented reward total is therefore **$4,135.71**.
+> **USD normalization:** the BigBlueButton / Scalelite bounty remains normalized to **$287.13** from its original **€250** reward using the ECB reference rate **1 EUR = 1.1485 USD** published for **31 July 2026**. The Apache Log4net CVE reward of **€600** is normalized to **$698.34** using the live EUR/USD rate **1 EUR = 1.1639 USD** on **27 August 2026**. The normalized documented reward total is therefore **$4,635.71**.
 
 > Final severity totals use the official classification assigned by each contest, program, or vendor. Submitted severity is preserved separately where it is relevant to the public record. Private, pending, rejected, and embargoed reports are excluded.
 
@@ -133,6 +137,7 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 | **10 valid WEMIX reports** across consensus, governance, staking, P2P, DeFi, and reserve accounting | [WEMIX research](#wemixresearch) |
 | **9 validated 0xMarkets findings** across oracle, vault, execution-fee, share-accounting, and redemption paths | [0xMarkets research](#markets0xresearch) |
 | **BigBlueButton / Scalelite Web2 bug bounty** · High → Medium · €250 original bounty · $287.13 normalized | [Article](https://dev.to/f00dat/how-scalelite-playback-broke-tenant-isolation-in-bigbluebutton-multitenancy-1o9b) |
+| **Volo Smart Contracts · Critical → Medium · accepted direct theft primitive · $500 bounty** | [Article](https://dev.to/f00dat/volosc-194-how-an-accepted-direct-theft-primitive-ended-as-a-usd-500-medium-39am) |
 | **CVE 2026 40021 · Apache Log4net · Medium · €600 reward · $698.34 normalized** | [Article](https://dev.to/f00dat/cve-2026-40021-how-invalid-xml-properties-could-silently-drop-log-events-in-apache-log4net-abl) · [Apache Advisory](https://logging.apache.org/security.html#CVE-2026-40021) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-40021) |
 
 ---
@@ -153,10 +158,10 @@ My work emphasizes reproducible proofs of concept, real protocol paths, measurab
 
 ## Career Highlights
 
-- 38 validated security findings across public audit contests and bug bounty programs.
-- 4 final Critical, 12 final High, 10 final Medium, and 12 final Low findings across validated audit contest and bug bounty research.
+- 39 validated security findings across public audit contests and bug bounty programs.
+- 4 final Critical, 12 final High, 11 final Medium, and 12 final Low findings across validated audit contest and bug bounty research.
 - 1 public Web2 CVE in Apache Log4net, credited to `f00dat`, counted within the validated findings and documented in a dedicated public technical writeup.
-- 38 public technical writeups with reproducible evidence and impact analysis.
+- 39 public technical writeups with reproducible evidence and impact analysis.
 - Public research record across CertiK, HackenProof, Code4rena, Sherlock, and YesWeHack.
 - Research spans both Web3 protocol security and Web2 application, logging, parser, and disclosure workflows.
 
@@ -212,6 +217,7 @@ A representative selection of publicly documented findings, organized by researc
 | Project | Finding | Severity Record | Public Evidence |
 |---|---|---:|---|
 | **WEMIX** | Removed validator remained accepted as signer and reward recipient | **Critical → Medium** | [Article](https://dev.to/f00dat/how-wemix-kept-accepting-a-removed-validator-as-an-active-signer-1135) · [Report](https://gist.github.com/f00dat/96219a676da64aeef5eadf174cb0b442) |
+| **Volo Smart Contracts** | Caller controlled `asset_type` could redirect an approved curator value into the vault principal slot, inflating NAV and withdrawal value | **Critical → Medium** | [Article](https://dev.to/f00dat/volosc-194-how-an-accepted-direct-theft-primitive-ended-as-a-usd-500-medium-39am) |
 | **CROSS** | Positive `offsetSeconds` restored mint capacity before the configured period ended, allowing `2 × LIMIT` inside one intended period | **Critical → Low** | [Article](https://dev.to/f00dat/how-a-positive-offsetseconds-bug-let-a-cross-forge-mint-2x-the-intended-erc20-period-limit-eon) · [Report](https://gist.github.com/f00dat/fe7084f0045a3e69434ad973ad2a21d2) |
 | **CROSS** | Constructor bypass maker order could repeatedly revert native CROSS pair matching through auto unwrapped payouts | **Medium → Low** | [Article](https://dev.to/f00dat/how-a-constructor-bypass-let-malicious-cross-makers-block-native-pair-matching-3n64) · [Report](https://gist.github.com/f00dat/f4cd5aaaebc649999cb730606c31f17b) |
 
@@ -516,11 +522,28 @@ Findings from HackenProof bug bounty programs are grouped separately from audit 
 
 </details>
 
+<details open>
+<summary><strong>Volo Smart Contracts · 1 Medium · $500.00</strong></summary>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Submitted_Critical-1-b91c1c?style=flat-square" alt="Submitted Critical">
+  <img src="https://img.shields.io/badge/Final_Medium-1-f59e0b?style=flat-square" alt="Final Medium">
+  <img src="https://img.shields.io/badge/Reward-%24500.00-0A66C2?style=flat-square" alt="Reward">
+</p>
+
+| Finding | Submitted | Final | Reward | Public Evidence |
+|---|---:|---:|---:|---|
+| Caller controlled `asset_type` could redirect an approved curator value into the vault principal slot, inflate NAV and share ratio, and increase principal withdrawn for the same shares | Critical | Medium | $500.00 | [Article](https://dev.to/f00dat/volosc-194-how-an-accepted-direct-theft-primitive-ended-as-a-usd-500-medium-39am) |
+
+> The final HackenProof review confirmed the code level defect, confirmed that version 10 closed the reported path, and described the finding as an **accepted direct theft primitive**. The final classification was Medium because the vulnerable package was fixed before the curator state required by the proof of concept became active in production.
+
+</details>
+
 ## Web3 Bug Bounty Summary
 
 | Medium | Low | Valid | Rewarded | Writeups | Rewards |
 |---:|---:|---:|---:|---:|---:|
-| **1** | **12** | **13** | **13** | **13** | **$1,718.80** |
+| **2** | **12** | **14** | **14** | **14** | **$2,218.80** |
 
 ---
 
