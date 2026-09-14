@@ -1,7 +1,7 @@
 <h1 align="center">Daniel Alves</h1>
 
 <p align="center">
-  <strong>Security Researcher · Web3 · Web2 · Smart Contracts · Blockchain Infrastructure · DeFi</strong>
+  <strong>Security Researcher · Application Security · Smart Contracts Security · Blockchain Security · DeFi</strong>
 </p>
 
 <p align="center">
