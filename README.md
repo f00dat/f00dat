@@ -16,7 +16,6 @@
 
 <p align="center">
   <a href="https://code4rena.com/@I1iveF0rTh1Sh1t"><img src="https://img.shields.io/badge/Code4rena-I1iveF0rTh1Sh1t-7c3aed?style=for-the-badge" alt="Code4rena profile"></a>
-  <a href="https://hackenproof.com/hackers/I1iveF0rTh1sSh1t"><img src="https://img.shields.io/badge/HackenProof-I1iveF0rTh1sSh1t-2563eb?style=for-the-badge" alt="HackenProof profile"></a>
   <a href="https://audits.sherlock.xyz/watson/I1iveF0rTh1Sh1t"><img src="https://img.shields.io/badge/Sherlock-I1iveF0rTh1Sh1t-111827?style=for-the-badge" alt="Sherlock Watson profile"></a>
 </p>
 
